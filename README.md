@@ -1,7 +1,8 @@
 # Community-Mod
-The name and stuff will change (hopefully). Just wanted to make one so I could get onto my html project
+A realstic fantasy mod with loose elements of low fantasy set on Earth.
 # Members:
-* _Etta Alienite
+* _Etta
+* Alienite
 * Auletes
 * chpf
 * conglomeration
