@@ -1,1 +1,2 @@
 I made a python script that will update the Regions section automatically for us. Just needs some improved formatting.
+Once there's a reason to go to this site I'll generate this text instead of editing a file.
