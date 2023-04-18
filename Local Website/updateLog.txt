@@ -1,0 +1,1 @@
+I made a python script that will update the Regions section automatically for us. Just needs some improved formatting.

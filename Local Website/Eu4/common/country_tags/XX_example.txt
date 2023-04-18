@@ -1,0 +1,3 @@
+#THIS IS JUST AN EXAMPLE USED FOR TESTING AND DEMOSTRATION PURPOSES
+TST = "countries/test.txt"
+XXX = "countries/xxx.txt"
