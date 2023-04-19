@@ -39,15 +39,20 @@ def main():
                 regions.insert(26, '\t\t\t'+tagGroups[key][len(tagGroups[key])-1]+'<div class="tab"></div>')
             else:
                 regions.insert(26, '\t\t\t'+tagGroups[key][0]+'<br><br>\n')
-            regions.insert(26, '\t\t\t'+f'<a href=\"tags\{key}.html\">{key}</a>'+'<br><br>\n')
+            regions.insert(26, '\t\t\t'+f'<a href=\"tags\{key}.html\" style="text-decoration: none; color: rgb(0,175,230)">{key.upper()}:</a>'+'<br><br>\n')
+
+
 
     existingGroupFiles = glob('htmls/tags/*.html')
     testHtml = parseHtmls(r'htmls\baseFiles\others\test.html')
     for key in tagGroups:
         if not f'htmls/tags/{key}.html' in existingGroupFiles:
             keyHtml = open(f'htmls/tags/{key}.html', 'w+', encoding='utf-8')
-            for line in testHtml:
-                keyHtml.write(line)
+            for n,line in enumerate(testHtml):
+                if n == 17:
+                    keyHtml.write(line+f'\t\t\t{key.upper()}\n')
+                else:
+                    keyHtml.write(line)
             keyHtml.close()
 
 
