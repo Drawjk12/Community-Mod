@@ -1,2 +1,2 @@
-I made a python script that will update the Regions section automatically for us. Just needs some improved formatting.
-Once there's a reason to go to this site I'll generate this text instead of editing a file.
+Add your news to the updateLog.txt file in the Local Website section! If someone else has recent news:
+go to the next line!
