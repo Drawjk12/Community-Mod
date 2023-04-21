@@ -1,2 +1,2 @@
-Add your news to the updateLog.txt file in the Local Website section! If someone else has recent news:
-go to the next line!
+Add your news to the updateLog.txt. If someone else has recent news just add to the next line
+If you have a group of provinces you want a province group, run main.py, and then edit the <provGroup>.html in /htmls/tags
