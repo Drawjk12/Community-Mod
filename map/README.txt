@@ -1,0 +1,1 @@
+put your provinces.bmp in the aptly named folder before pushing it
