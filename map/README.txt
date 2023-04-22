@@ -1,1 +1,1 @@
-put your provinces.bmp in the aptly named folder before pushing it
+put your provinces.bmp and definitions.csv in the aptly named folder before pushing it.
