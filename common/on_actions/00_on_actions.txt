@@ -3259,6 +3259,7 @@ on_four_year_pulse_4 = {
 	random_events = {
 		# ht_randomevents.txt
 		150 = ht_random_events.1
+		100 = ht_random_events.2
 
 		# randomevents.txt
 		100 = 3051

@@ -1,1 +1,1 @@
-put your provinces.bmp and definitions.csv in the aptly named folder before pushing it.
+put your provinces.bmp, definitions.csv, heightmap.bmp, and any other map that you edited in the aptly named "map stuff" folder before pushing it.

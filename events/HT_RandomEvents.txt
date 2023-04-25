@@ -81,3 +81,36 @@ country_event = {
 		add_stability = 1
 	}
 }
+
+province_event = {
+	id = ht_random_events.2
+	title = ht_random_events.2.t
+	desc = ht_random_events.2.d
+	picture = GENERALS_DISCUSSING_eventPicture
+	
+	is_triggered_only = {
+		is_sea = yes
+		owner = {
+			exploration_ideas = 3
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = ht_random_events.2.a
+		owner = {
+			add_country_modifier = { 
+				name = defensive_stance
+				duration = -1  
+				hidden = yes
+			}
+		}
+	}
+	option = {
+		name = ht_random_events.2.b
+		add_prestige = 50
+	}
+}
