@@ -1,5 +1,5 @@
 #Tamil Kings
-YOD = "countries/Yod.txt"
-ALP = "countries/Reshi.txt"
-MLM = "countries/Mlem.txt"
-TAV = "countries/Vtaf.txt"
+YOD = "countries/east_indies/Yod.txt"
+ALP = "countries/east_indies/Reshi.txt"
+MLM = "countries/east_indies/Mlem.txt"
+TAV = "countries/east_indies/Vtaf.txt"

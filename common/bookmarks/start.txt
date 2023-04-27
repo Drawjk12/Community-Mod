@@ -1,0 +1,8 @@
+bookmark =
+{
+	name = "BOOKMARK_NAME"
+	desc = "BOOKMARK_NAME_DESC"
+	date = 1200.1.1
+
+
+}

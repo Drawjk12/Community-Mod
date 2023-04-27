@@ -1,0 +1,12 @@
+color = { 250 250 235 }
+monarch_names = {
+}
+leader_names = {
+}
+ship_names = {
+}
+fleet_names = {
+}
+army_names = {
+}
+graphical_culture = westerngfx

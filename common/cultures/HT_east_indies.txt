@@ -1,17 +1,14 @@
-example = {
-	custom_culture = {
-		primary = MLM
+ruacha = {
+	emet = {
+		primary = YOD
 		male_names = {
-			MaleName1 MaleName2 MaleName3
-			"Male Name 1" "Male Name 2" "Male Name 3"
+			Ada Isa Mor Gad Jac Zil Cai Abe Aar Dan Lev Noa Gab Cha Eth Joe Amo Avi Ari Mic Jes
 		}
 		female_names = {
-			FemaleName1 FemaleName2 FemaleName3
-			"Female Name 1" "Female Name 2" "Female Name 3"
+			Leah Abig Rach Naom Sara Arie Yael Tama Tali Ruth Rivk Hann Aviv Aliz Bracc Malk Judi Shir Ayal Bina Neta Alon Adin
 		}
 		dynasty_names = {
-			DynastyName1 DynastyName2 DynastyName3
-			"Dynasty Name 1" "Dynasty Name 2" "Dynasty Name 3"
+			"Ve Emunah"
 		}	
 	}
 }
