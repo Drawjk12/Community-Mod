@@ -1,0 +1,17 @@
+example = {
+	custom_culture = {
+		primary = MLM
+		male_names = {
+			MaleName1 MaleName2 MaleName3
+			"Male Name 1" "Male Name 2" "Male Name 3"
+		}
+		female_names = {
+			FemaleName1 FemaleName2 FemaleName3
+			"Female Name 1" "Female Name 2" "Female Name 3"
+		}
+		dynasty_names = {
+			DynastyName1 DynastyName2 DynastyName3
+			"Dynasty Name 1" "Dynasty Name 2" "Dynasty Name 3"
+		}	
+	}
+}
