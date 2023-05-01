@@ -1,0 +1,5 @@
+#Tamil Kings
+YOD = "countries/east_indies/Yod.txt"
+ALP = "countries/east_indies/Reshi.txt"
+MLM = "countries/east_indies/Mlem.txt"
+TAV = "countries/east_indies/Vtaf.txt"

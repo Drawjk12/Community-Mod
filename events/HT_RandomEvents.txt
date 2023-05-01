@@ -1,0 +1,106 @@
+namespace = ht_random_events
+
+#Added by Drawjk12
+country_event = {
+	id = ht_random_events.1
+	title = ht_random_events.1.t
+	desc = {
+		trigger = { NOT = { war_exhaustion = 5 } employed_advisor = { type = natural_scientist } }
+		desc = ht_random_events.1.d.a
+	}
+	desc = {
+		trigger = { NOT = { war_exhaustion = 5 employed_advisor = { type = natural_scientist } } is_at_war = no }
+		desc = ht_random_events.1.d.b
+	}
+	desc = {
+		trigger = { NOT = { war_exhaustion = 5 employed_advisor = { type = natural_scientist } } is_at_war = yes }
+		desc = ht_random_events.1.d.c
+	}
+	desc = {
+		trigger = { war_exhaustion = 5 }
+		desc = ht_random_events.1.d.d
+	}
+	picture = {
+		trigger = { NOT = { war_exhaustion = 5 } employed_advisor = { type = natural_scientist } }
+		picture = UNIVERSITY_eventPicture #University
+	}
+	picture = {
+		trigger = { NOT = { war_exhaustion = 5 employed_advisor = { type = natural_scientist } } }
+		picture = ADVISOR_eventPicture #Moon-lit enlightenment
+	}
+	picture = {
+		trigger = { war_exhaustion = 5 }
+		picture = WOUNDED_SOLDIERS_eventPicture #Optimisim
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ht_random_events.1.a
+		trigger = { NOT = { war_exhaustion = 5 } employed_advisor = { type = natural_scientist } }
+		if = {
+			limit = {
+				NOT = { has_institution = new_world_i }
+			}
+			capital_scope = {
+				add_institution_embracement = {
+					which = new_world_i
+					value = 10
+				}
+			}
+		}
+		else = {
+			add_adm_tech = 50
+		}
+	}
+	option = {
+		name = ht_random_events.1.b
+		trigger = { NOT = { war_exhaustion = 5 employed_advisor = { type = natural_scientist } } is_at_war = no }
+		add_stability = 3
+	}
+	option = {
+		name = ht_random_events.1.c
+		trigger = { NOT = { war_exhaustion = 5 employed_advisor = { type = natural_scientist } } is_at_war = yes }
+		add_yearly_manpower = 0.5
+	}
+	option = {
+		name = ht_random_events.1.d
+		trigger = { war_exhaustion = 5 }
+		add_war_exhaustion = -5
+	}
+	option = {
+		name = ht_random_events.1.f
+		add_stability = 1
+	}
+}
+
+province_event = {
+	id = ht_random_events.2
+	title = ht_random_events.2.t
+	desc = ht_random_events.2.d
+	picture = GENERALS_DISCUSSING_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_sea = yes
+		owner = {
+			exploration_ideas = 3
+		}
+	}
+
+	option = {
+		name = ht_random_events.2.a
+		owner = {
+			add_country_modifier = { 
+				name = defensive_stance
+				duration = -1  
+				hidden = yes
+			}
+		}
+	}
+	option = {
+		name = ht_random_events.2.b
+		add_prestige = 50
+	}
+}

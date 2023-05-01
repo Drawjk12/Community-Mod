@@ -1,0 +1,7 @@
+capital = 597
+technology_group = western
+government = theocracy
+add_government_reform = merchant_theocracy_reform
+government_rank = 1
+religion = catholic
+primary_culture = emet
