@@ -1,6 +1,0 @@
-
-all_region = {
-	areas = {
-		all_areas
-	}
-}

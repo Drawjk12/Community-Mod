@@ -1,1 +1,0 @@
-put your provinces.bmp and definitions.csv in the aptly named folder before pushing it.
