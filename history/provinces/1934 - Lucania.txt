@@ -5,3 +5,4 @@ base_production = 4
 controller = MAS
 is_city = yes
 add_core = MAS
+hre = yes
