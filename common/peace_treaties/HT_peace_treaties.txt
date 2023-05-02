@@ -1,0 +1,46 @@
+make_hre_monarchy = {
+    category = 6            ###### check this
+    power_pojection = 0
+    power_cost_base = 0.2
+    prestige_base = 0.5
+    ae_base = 0
+
+    is_make_subject = yes
+    requires_is_allowed = yes
+
+    effect = {
+        if = {
+            limit = {
+                THIS = {
+                    has_country_flag = hre_member_is_merchant       ##################>>>>>>>>>>>>>>>>>>>>      countries will have a normal monarchy with a general-estates mechanic and some button click ig. to change it into a merchant/militia sub-type, a flag is set (look at the code). every time a flag changes, a event will fire that is going to influence the imperial authority (militia will increase and merchant will decrease it)
+                    ###### another possibility is the usage of variables. every country that is part of the HRE and is a militia sub-type is going to add a point to the variable. then the hre reforms will check this variable the math would look something like -- militiaStrengthPerc = total_militias / total_members * 100 
+                }
+            }
+            FROM = {
+                change_government = monarchy    ############# set this to the special monarchy
+                set_country_flag = hre_member_is_merchant
+            }
+        }
+        else = {
+            FROM = {
+                change_government = monarchy    ############# set this to the special monarchy
+                set_country_flag = hre_member_is_militia
+            }
+        }
+        FROM = {
+            set_in_empire = yes
+        }
+
+        ai_weight = {
+            export_to_variable = {
+                variable_name = ai_value
+                value = 100
+            }
+            limit = {
+                FROM = {
+                    is_part_of_hre = yes
+                }
+            }
+        }
+    }
+}

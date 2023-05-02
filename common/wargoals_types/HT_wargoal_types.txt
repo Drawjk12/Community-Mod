@@ -1,0 +1,14 @@
+war_goal_convert_to_hre = {
+    type = take_capital
+    badboy_factor = 1                          ######## check this
+    prestige_factor = 1
+    peace_cost_factor = 1
+    allowed_provinces = {
+        OR = {
+            is_core = ROOT
+        }
+    }
+    po_change_government = yes
+    po_demand_provinces = no
+    war_name = CONVERT_NORTH_WAR_NAME
+}
