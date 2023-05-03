@@ -7,4 +7,4 @@ add_core = YOD
 
 center_of_trade = 1
 add_core = MLM
-1212.19.3 = { owner = MLM }
+1212.3.19 = { owner = MLM }
