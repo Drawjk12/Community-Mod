@@ -1,4 +1,4 @@
-capital = 597
+capital = 2387
 technology_group = western
 government = monarchy
 add_government_reform = plutocratic_reform
@@ -22,4 +22,14 @@ monarch = {
         manuever = 6
         siege = 1
     }
+}
+
+1210.1.1 = {
+	capital = 594
+}
+
+1212.1.1 = {
+	create_vassal = ALP
+	create_vassal = MLM
+	create_vassal = TAV
 }
