@@ -1,8 +1,9 @@
 owner = MAS
-base_tax = 2
-base_manpower = 6
-base_production = 4
+base_tax = 4
+base_manpower = 3
+base_production = 3
 controller = MAS
 is_city = yes
-add_core = MAS
 hre = yes
+add_core = MAS
+center_of_trade = 1

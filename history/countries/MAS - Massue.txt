@@ -1,7 +1,17 @@
 capital = 123
 technology_group = western
-government = monarchy
+government = HT_hre_monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 religion = catholic
-primary_culture = piedmontese
+add_government_reform = hre_massue_monarchy
+1440.5.8 = {
+	monarch = {
+		name = "Torini IV"
+		dynasty = "Makia"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	set_emperor = yes
+}

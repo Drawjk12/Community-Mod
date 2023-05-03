@@ -1,2 +1,2 @@
-
 MAS = "countries/Massue.txt"
+SMA = "countries/smarand.txt"

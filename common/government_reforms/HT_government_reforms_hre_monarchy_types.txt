@@ -1,4 +1,9 @@
+
+
+
+
 hre_monarchy_type = {
+
 	monarchy = yes
 	heir = yes
 	queen = yes
@@ -30,6 +35,7 @@ hre_monarchy_type = {
 # hre subtypes
 
 hre_basic_monarchy = {
+	basic_reform = hre_monarchy_type
 	icon = "castle"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
@@ -37,9 +43,11 @@ hre_basic_monarchy = {
 	modifiers = {
 		mercantilism_cost = -0.25
 	}
+
 }
 
 hre_massue_monarchy = {
+	basic_reform = hre_monarchy_type
 	icon = "crown"
 	allow_normal_conversion = no
 	valid_for_nation_designer = yes
@@ -48,4 +56,5 @@ hre_massue_monarchy = {
 		diplomatic_reputation = 2
 		burgher_loyalty_modifier = 0.5
 	}
+
 }

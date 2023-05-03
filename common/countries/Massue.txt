@@ -1,5 +1,5 @@
 color = {
-	15 66 0
+	15 66  0
 }
 monarch_names = {
 }
