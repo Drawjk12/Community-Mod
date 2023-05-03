@@ -1,7 +1,25 @@
 capital = 597
 technology_group = western
-government = theocracy
-add_government_reform = merchant_theocracy_reform
-government_rank = 1
-religion = catholic
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 2
+religion = meku
 primary_culture = emet
+mercantilism = 1
+monarch = {
+	name = "Mo"
+	dynasty = "Ve Emunah"
+    regent = yes
+	culture = emet
+	religion = meku
+    adm = 6
+    dip = 6
+    mil = 3
+	leader = {
+        type = general
+        fire = 0
+        shock = 3
+        manuever = 6
+        siege = 1
+    }
+}

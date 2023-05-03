@@ -7,4 +7,5 @@ monarchy = {
             }
         }
     }
+	basic_reform = monarchy_mechanic
 }
