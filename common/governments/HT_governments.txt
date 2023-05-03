@@ -1,11 +1,17 @@
-monarchy = {
+HT_hre_monarchy = {
     reform_levels = {
-        hre_monarchy_type = {
+        hre_monarchy_types = {
             reforms = {
                 hre_basic_monarchy
                 hre_massue_monarchy
             }
         }
     }
+<<<<<<< Updated upstream
 	basic_reform = monarchy_mechanic
+=======
+    basic_reform = hre_monarchy_type
+
+    color = { 250 239 82 }
+>>>>>>> Stashed changes
 }
