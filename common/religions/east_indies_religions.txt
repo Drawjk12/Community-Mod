@@ -1,0 +1,35 @@
+kallah = {
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 110 110 }
+	orthodox_meku = { #Mekubbal
+		icon = 26
+		color = { 127 178 51 }
+		province = {
+		}
+		country = {
+		}
+		country_as_secondary = {
+		}
+		uses_karma = yes
+		
+		heretic = { MEKU }	
+	}
+	meku = {
+		icon = 26
+		color = { 127 178 51 }
+		province = {
+		}
+		country = {
+		}
+		country_as_secondary = {
+		}
+		uses_karma = yes
+		
+		heretic = { MEKU }	
+	}
+	
+	harmonized_modifier = harmonized_kallah_group
+	
+	crusade_name = HOLY_WAR
+	
+}

@@ -3359,6 +3359,10 @@ on_four_year_pulse_3 = {
 }
 
 on_four_year_pulse_4 = {
+	random_event = {
+		1000 = 0 
+		50 = emet_events.3
+	}
 	random_events = {
 		# ht_randomevents.txt
 		150 = ht_random_events.1

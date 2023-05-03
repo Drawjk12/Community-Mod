@@ -3,3 +3,13 @@
 ###########################
 
 #	south european event related modifiers
+
+#	east indies
+HT_apple = {
+	administrative_efficiency = 0.3
+	global_monthly_devastation = 0.08
+}
+
+harmonized_kallah_group = {
+	
+}

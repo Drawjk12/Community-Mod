@@ -1,0 +1,70 @@
+shoshana_disaster = {
+	potential = {
+		religion = orthodox_meku
+		tag = YOD
+		NOT = {
+			exists = ALP
+			exists = MLM
+			exists = TAV
+		}
+	}
+	can_start = {
+		has_regency = yes
+		estate_influence = {
+			estate = estate_burghers
+			influence = 30
+		}
+	}
+	can_stop = {
+		has_regency = no
+	}
+	progress = {
+		modifier = {
+			factor = 6
+			has_regency = yes
+		}
+		modifier = {
+			factor = 3
+			custom_trigger_tooltip = {
+				tooltip = HT_EMPLOYED_MERCHANT
+				employed_advisor = {
+					type = treasurer
+				}
+			}
+		}
+	}
+	can_end = {
+		stability = 0
+		NOT = { num_of_rebel_armies = 1 }
+		is_at_war = no
+		or = {
+			is_subject = yes
+			has_regency = no
+		}
+		NOT = {
+			estate_influence = {
+				estate = estate_burghers
+				influence = 25
+			}
+		}
+		heir_claim = 75
+	}
+	modifier = {
+		global_unrest = 5
+		stability_cost_modifier = 0.25
+		merchants = -3
+	}
+	
+	on_start = emet_events.1
+	on_end = emet_events.2
+	
+	on_monthly = {
+		events = {
+		}
+		random_events = {
+			1000 = 0
+			50 = emet_events.3
+			100 = emet_events.4
+		}
+	}
+}
