@@ -7,7 +7,7 @@ religion = meku
 primary_culture = emet
 mercantilism = 1
 monarch = {
-	name = "Mo"
+	name = "Mo Ve Emunah"
 	dynasty = "Ve Emunah"
     regent = yes
 	culture = emet
@@ -26,10 +26,4 @@ monarch = {
 
 1210.1.1 = {
 	capital = 594
-}
-
-1212.1.1 = {
-	create_vassal = ALP
-	create_vassal = MLM
-	create_vassal = TAV
 }

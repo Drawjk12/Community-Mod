@@ -7,3 +7,4 @@ add_core = YOD
 
 center_of_trade = 1
 add_core = TAV
+1212.3.19 = { owner = TAV }

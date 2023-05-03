@@ -4,5 +4,5 @@ base_manpower = 6
 base_production = 4
 controller = MAS
 is_city = yes
-add_add_core = MAS
+add_core = MAS
 hre = yes
