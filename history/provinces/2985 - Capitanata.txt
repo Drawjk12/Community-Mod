@@ -1,8 +1,12 @@
 is_city = yes
 owner = SMA
 controller = SMA
-add_core = SMA
 base_tax = 2
 base_manpower = 4
 base_production = 2
 hre = yes
+add_core = SMA
+discovered_by = western
+discovered_by = sub_saharan
+discovered_by = eastern
+discovered_by = muslim

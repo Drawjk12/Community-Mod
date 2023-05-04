@@ -3,3 +3,7 @@ add_government_reform = hre_basic_monarchy
 government_rank = 1
 technology_group = western
 capital = 122
+
+1200.1.1 = {
+	
+}

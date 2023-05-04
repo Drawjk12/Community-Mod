@@ -11,21 +11,17 @@ hre_monarchy_type = {
 	valid_for_nation_designer = no
 	custom_attributes = {
 		enables_aristrocratic_idea_group = yes
-		states_general_mechanic = {
-			merchants = {
-				trade_efficiency = 0.1
-				naval_morale = 0.1
-				infantry_power = -0.05
-				regiment_cost = 0.1
-			}
-			militias = {
-				global_ship_trade_power = -0.2
-				naval_morale = -0.1
-				global_manpower_modifier = 0.1
-				discipline = 0.05
-			}
+	}
+	conditional = {
+		allow = { 
+			has_dlc = "Res Publica"
+		}
+		government_abilities = {
+			merchants_vs_militia_mechanic
 		}
 	}
+	
+	
 	modifiers = {
 		nobles_influence_modifier = 0.05
 		burgher_influence_modifier = 0.05

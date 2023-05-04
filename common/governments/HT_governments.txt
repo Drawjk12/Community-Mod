@@ -7,11 +7,7 @@ HT_hre_monarchy = {
             }
         }
     }
-<<<<<<< Updated upstream
-	basic_reform = monarchy_mechanic
-=======
     basic_reform = hre_monarchy_type
 
     color = { 250 239 82 }
->>>>>>> Stashed changes
 }

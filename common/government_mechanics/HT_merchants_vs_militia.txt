@@ -1,0 +1,57 @@
+merchants_vs_militia_mechanic = {
+	available = {
+		has_dlc = "Res Publica"
+	}
+
+	powers = {
+		governmental_power = {
+			gui = parliament_vs_monarchy_gov_mech
+			max = 100	#Monarchy direction
+			min = -100	#Parliament direction
+			base_monthly_growth = 0
+			scaled_modifier = {
+				trigger = {
+					has_government_power = { 
+						mechanic_type = merchants_vs_militia_mechanic
+						power_type = governmental_power
+						value = 0
+					}
+				}
+				modifier = {
+					global_ship_trade_power = -0.2
+					naval_morale = -0.1
+					global_manpower_modifier = 0.1
+					discipline = 0.05
+				}
+			}
+			reverse_scaled_modifier = {
+				trigger = {
+					NOT = {
+						has_government_power = { 
+							mechanic_type = merchants_vs_militia_mechanic
+							power_type = governmental_power
+							value = 0
+						}
+					}
+				}
+				modifier = {
+					trade_efficiency = 0.15
+					naval_morale = 0.1
+					infantry_power = -0.05
+				}
+			}
+			on_max_reached = {
+				custom_tooltip = parliament_vs_monarchy_mechanic_at
+				hidden_effect = {
+					#idk
+				}
+			}
+			on_min_reached = {
+				custom_tooltip = parliament_vs_monarchy_mechanic_bt
+				hidden_effect = {
+					#idk
+				}
+			}
+		}
+	}
+}

@@ -1110,7 +1110,11 @@ on_new_monarch = {
             ROOT = {
                 check_variable = { which = member_hre_influence_bool value = 1}
                 NOT = { check_variable = { which = member_hre_influence_bool value = 2 } }
-                is_organist_in_power = no
+                has_government_power = {
+					mechanic_type = merchants_vs_militia_mechanic
+					power_type = governmental_power
+					value = 1
+				}
             }
         }
         #change the bool to 0 (false) 
@@ -1134,12 +1138,17 @@ on_new_monarch = {
             ROOT = {
                 check_variable = { which = member_hre_influence_bool value = 0}
                 NOT = { check_variable = { which = member_hre_influence_bool value = 1 } }
-                is_organist_in_power = yes
+                not = {
+					has_government_power = {
+						mechanic_type = merchants_vs_militia_mechanic
+						power_type = governmental_power
+						value = 1
+					}
+				}
             }
         }
         #change the bool to 1 (true) 
         ROOT = {
-          
             add_variable = {
                which = member_hre_influence_bool 
                value = 1
