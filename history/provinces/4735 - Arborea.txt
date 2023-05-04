@@ -1,1 +1,5 @@
 is_city = yes
+discovered_by = western
+discovered_by = sub_saharan
+discovered_by = eastern
+discovered_by = muslim

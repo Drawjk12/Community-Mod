@@ -1,10 +1,14 @@
 is_city = yes
 owner = SMA
 controller = SMA
-add_core = SMA
-fort_15th = yes
 base_tax = 5
 base_manpower = 4
 base_production = 5
 hre = yes
 center_of_trade = 2
+add_core = SMA
+discovered_by = western
+discovered_by = sub_saharan
+discovered_by = eastern
+discovered_by = muslim
+fort_15th = yes
