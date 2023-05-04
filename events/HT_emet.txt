@@ -1,0 +1,252 @@
+name_space = emet_events
+country_event = {
+	id = emet_events.1
+	title = emet_events.1.t
+	desc = emet_events.1.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = emet_events.1.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -1
+		hidden_effect = {
+			add_devotion = 50
+			add_legitimacy = 50
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 4
+				religion = orthodox_meku
+				estate = estate_burghers
+				as_if_faction = yes
+				separatists_target = ALP
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 4
+				religion = orthodox_meku
+				estate = estate_burghers
+				as_if_faction = yes
+				separatists_target = ALP
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 4
+				religion = orthodox_meku
+				estate = estate_burghers
+				as_if_faction = yes
+				separatists_target = ALP
+			}
+		}
+	}
+	option = {
+		name = emet_events.1.b
+		ai_chance = { factor = 0 }
+		add_karma = 50
+		placed_merchant_power = 3
+		add_disaster_progress = {
+			disaster = Shoshana_disaster
+			value = 100
+		}
+	}
+}
+
+country_event = {
+	id = emet_events.2
+	title = emet_events.2.t
+	desc = emet_events.2.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = meku
+		owns = 2387
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					religion = meku
+				}
+				reverse_add_opinion = {
+					who = ROOT
+					modifier = renounced_as_heretics
+				}
+			}
+		}
+	}
+
+	option = {
+		name = emet_events.2.a
+	}
+}
+
+country_event = { #Apple
+	id = emet_events.3
+	title = emet_events.3.t
+	desc = emet_events.3.d
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		owns = 2387
+		NOT = { has_country_flag = HT_apple_flag }
+	}
+
+	immediate = {
+		set_country_flag = HT_apple_flag
+	}
+
+	option = {
+		name = emet_events.3.a
+		add_karma = -10
+		add_country_modifier = { 
+			name = HT_apple
+			duration = -1  
+			desc = HT_APPLE
+		}
+		hidden_effect = {
+			add_disaster_progress = {
+				disaster = shoshana_disaster
+				value = 10
+			}
+		}
+	}
+	option = {
+		name = emet_events.3.b
+		add_karma = 10
+	}
+}
+
+country_event = {
+	id = emet_events.4
+	title = emet_events.4.t
+	desc = emet_events.4.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = emet_events.4.a
+		ai_chance = {
+			factor = 95
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+				religion = orthodox_meku
+				estate = estate_burghers
+				separatists_target = ALP
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+				religion = orthodox_meku
+				estate = estate_burghers
+				separatists_target = MLM
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+				religion = orthodox_meku
+				estate = estate_burghers
+				separatists_target = TAV
+			}
+		}
+	}
+	option = {
+		name = emet_events.4.b
+		ai_chance = {
+			factor = 5
+			modifier = {
+				NOT = { stability = -2 }
+				factor = 10
+			}
+			modifier = {
+				unrest = 6
+				factor = 10
+			}
+		}
+		every_owned_province = {
+			clear_rebels = yes
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ai = yes
+				}
+				release = ALP
+			}
+		}
+		end_disaster = shoshana_disaster
+		release = MLM
+		release = TAV
+		release_all_subjects = yes
+		change_tag  = ALP
+	}
+}
+
+country_event = {
+	id = emet_events.5
+	title = emet_events.5.t
+	desc = emet_events.5.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = emet_events.5.a
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 3
+				religion = orthodox_meku
+				estate = estate_burghers
+				as_if_faction = yes
+				separatists_target = ALP
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 3
+				religion = orthodox_meku
+				estate = estate_burghers
+				as_if_faction = yes
+				separatists_target = MLM
+			}
+		}
+		random_owned_province = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 3
+				religion = orthodox_meku
+				estate = estate_burghers
+				as_if_faction = yes
+				separatists_target = TAV
+			}
+		}
+	}
+	option = {
+		name = emet_events.5.b
+		add_years_of_income = -0.5
+		add_legitimacy = -10
+	}
+}

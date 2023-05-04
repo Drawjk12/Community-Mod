@@ -11,17 +11,19 @@ def main():
     #Get Eu4 Info
     owners, groups = parseEu4()
 
+    print(groups)
+    print(owners)
+
     #Get tags by region:
     tagGroups = {}
     for gKey in groups:
         tags=[]
         for oKey in owners:
             for gLists in groups[gKey]:
-                for gList in gLists:
-                    for id in gList:
-                        if id in owners[oKey]:
-                            if not oKey in tags:
-                                tags.append(oKey)
+                for id in gLists:
+                    if id in owners[oKey]:
+                        if not oKey in tags:
+                            tags.append(oKey)
         tagGroups[gKey]=tags
 
     print(tagGroups)
@@ -39,7 +41,7 @@ def main():
                 regions.insert(26, '\t\t\t'+tagGroups[key][len(tagGroups[key])-1]+'<div class="tab"></div>')
             else:
                 regions.insert(26, '\t\t\t'+tagGroups[key][0]+'<br><br>\n')
-            regions.insert(26, '\t\t\t'+f'<a href=\"tags\{key}.html\" style="text-decoration: none; color: rgb(0,175,230)">{key.upper()}:</a>'+'<br><br>\n')
+            regions.insert(26, '\t\t\t'+f'<a href=\"tags\{key}.html\" style="text-decoration: none; color: rgb(0,150,200)">{key.upper()}:</a>'+'<br><br>\n')
 
 
 

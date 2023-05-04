@@ -5,3 +5,6 @@ base_tax = 1
 base_manpower = 1
 add_core = YOD
 1212.3.19 = { owner = MLM }
+add_core = MLM
+religion = meku
+culture = emet

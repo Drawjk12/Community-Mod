@@ -9,3 +9,5 @@ fort_15th = yes
 add_core = ALP
 
 1212.3.19 = { owner = ALP }
+religion = orthodox_meku
+culture = emet

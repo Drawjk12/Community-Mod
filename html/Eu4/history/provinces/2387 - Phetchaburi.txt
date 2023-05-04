@@ -1,0 +1,13 @@
+
+owner = YOD
+base_production = 3
+base_tax = 5
+base_manpower = 2
+add_core = YOD
+
+fort_15th = yes
+add_core = ALP
+
+1212.3.19 = { owner = ALP }
+religion = meku
+culture = emet

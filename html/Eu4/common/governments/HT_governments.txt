@@ -1,0 +1,11 @@
+monarchy = {
+    reform_levels = {
+        hre_monarchy_type = {
+            reforms = {
+                hre_basic_monarchy
+                hre_massue_monarchy
+            }
+        }
+    }
+	basic_reform = monarchy_mechanic
+}
