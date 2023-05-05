@@ -1,0 +1,128 @@
+ht_ei_monarchy_mechanic = {
+	monarchy = yes
+	heir = yes
+	queen = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	boost_income = yes
+	custom_attributes = {
+		clergy_estate_agendas_gives_karma = yes
+		enables_aristocratic_idea_group = yes
+		disables_estate_nobles = yes
+	}
+	modifiers = {
+		nobles_influence_modifier = 0.05
+	}
+}
+
+ht_ei_monarchy_merchants_reform = {
+	icon = "politician"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = -10
+		merchants = 1
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	legacy_equivalent = merchant_republic
+	potential = {
+		tag = YOD
+	}
+	boost_income = yes
+	duration = 4
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	custom_attributes = {
+		clergy_estate_agendas_gives_karma = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		is_merchant_republic = yes
+		elections_increase_factions_influence = yes
+		disables_estate_nobles = yes
+	}
+	ai = {
+		factor = 0.75 #generic
+		
+		modifier = {
+			factor = 0
+			num_of_cities = 11
+		}
+		
+		modifier = {
+			factor = 0
+			capital_scope = { has_port = no }
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = {
+				capital_scope = { province_has_center_of_trade_of_level = 1 }
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			is_subject = yes
+		}
+	}
+}
+
+ht_id_feudal_theocracy = {
+	icon = "feudal_theocracy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ALP
+			tag = MLM
+			tag = TAV
+		}
+	}
+	nation_designer_trigger = {
+		religion_group = kallah
+	}
+	legacy_equivalent = feudal_theocracy_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 60
+	modifiers = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+		tolerance_own = 2
+		governing_capacity = 50
+		brahmins_hindu_loyalty_modifier = 0.05
+		church_loyalty_modifier = 0.05
+	}
+
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+	custom_attributes = {
+		clergy_estate_agendas_gives_karma = yes
+		enables_divine_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}

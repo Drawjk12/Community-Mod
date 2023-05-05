@@ -1,7 +1,7 @@
 capital = 2387
 technology_group = western
 government = monarchy
-add_government_reform = plutocratic_reform
+add_government_reform = ht_id_feudal_theocracy
 government_rank = 1
 religion = orthodox_meku
 primary_culture = piedmontese

@@ -13,3 +13,7 @@
  ht_random_events.2.d: "In light recent expeditions by our best explorers into what we believed was a massive continent near §G[Root.GetRegionName]§!, we must redraw our personal maps to note the region nothing but sea."
  ht_random_events.2.a: "Lets keep this a secret"
  ht_random_events.2.b: "As expected of our finest!"
+ kallah_events.1.t: "Daily Prayers"
+ kallah_events.1.d: "Our religious council is pushing to enforce a reform that will require daily prayer with a max concequence of exile."
+ kallah_events.1.a: "Enact it"
+ kallah_events.1.b: "Refuse"

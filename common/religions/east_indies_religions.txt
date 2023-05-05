@@ -5,10 +5,18 @@ kallah = {
 		icon = 26
 		color = { 127 178 51 }
 		province = {
+			local_prosperity_growth = 0.1
 		}
 		country = {
+			monthly_karma = 0.5
+			tolerance_heretic = 2
+			tolerance_heathen = -2
+			enforce_religion_cost = -0.1
+			free_policy = 1
 		}
 		country_as_secondary = {
+			tolerance_heretic = 1
+			tolerance_heathen = -1
 		}
 		uses_karma = yes
 		
@@ -18,10 +26,15 @@ kallah = {
 		icon = 26
 		color = { 127 178 51 }
 		province = {
+			supply_limit_modifier = 0.25
 		}
 		country = {
+			monthly_karma = 0.25
+			free_policy = 1
+			tolerance_heretic = 1
 		}
 		country_as_secondary = {
+			tolerance_heretic = 1
 		}
 		uses_karma = yes
 		

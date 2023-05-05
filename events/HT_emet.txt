@@ -1,4 +1,4 @@
-name_space = emet_events
+namespace = emet_events
 country_event = {
 	id = emet_events.1
 	title = emet_events.1.t
@@ -6,6 +6,10 @@ country_event = {
 	picture = WAR_OF_THE_ROSES_eventPicture
 	
 	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = shoshana_flag
+	}
 
 	option = {
 		name = emet_events.1.a
@@ -102,17 +106,17 @@ country_event = { #Apple
 	
 	trigger = {
 		owns = 2387
-		NOT = { has_country_flag = HT_apple_flag }
+		NOT = { has_ruler_flag = HT_apple_flag }
 	}
 
 	immediate = {
-		set_country_flag = HT_apple_flag
+		set_ruler_flag = HT_apple_flag
 	}
 
 	option = {
 		name = emet_events.3.a
 		add_karma = -10
-		add_country_modifier = { 
+		add_ruler_modifier = { 
 			name = HT_apple
 			duration = -1  
 			desc = HT_APPLE
@@ -199,6 +203,33 @@ country_event = {
 		release = MLM
 		release = TAV
 		release_all_subjects = yes
+		hidden_effect = {
+			ALP = {
+				add_estate_influence_modifier  = {
+					estate = estate_burghers
+					desc = ESTATER_DISASTER_TOOLTIP
+					influence = 75
+					duration = 7300
+				}
+			}
+			MLM = {
+				add_estate_influence_modifier  = {
+					estate = estate_burghers
+					desc = ESTATER_DISASTER_TOOLTIP
+					influence = 75
+					duration = 7300
+				}
+			}
+			TAV = {
+				add_estate_influence_modifier  = {
+					estate = estate_burghers
+					desc = ESTATER_DISASTER_TOOLTIP
+					influence = 75
+					duration = 7300
+				}
+			}
+			clr_country_flag = shoshana_flag
+		}
 		change_tag  = ALP
 	}
 }
@@ -218,6 +249,7 @@ country_event = {
 				type = nationalist_rebels
 				size = 3
 				religion = orthodox_meku
+				friend = ALP
 				estate = estate_burghers
 				as_if_faction = yes
 				separatists_target = ALP
@@ -228,6 +260,7 @@ country_event = {
 				type = nationalist_rebels
 				size = 3
 				religion = orthodox_meku
+				friend = MLM
 				estate = estate_burghers
 				as_if_faction = yes
 				separatists_target = MLM
@@ -238,6 +271,7 @@ country_event = {
 				type = nationalist_rebels
 				size = 3
 				religion = orthodox_meku
+				friend = TAV
 				estate = estate_burghers
 				as_if_faction = yes
 				separatists_target = TAV
