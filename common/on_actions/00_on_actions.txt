@@ -1122,8 +1122,6 @@ on_new_monarch = {
 			}
 	   }
         add_government_reform = merchant_power_reform
-
-    }
 	if = {
 		limit = {
 			 check_variable = {
@@ -2995,6 +2993,12 @@ on_thri_yearly_pulse_2 = {
 		40 = muslim_piety.22
 		300 = 0
 	}
+	#HT
+	random_events = {
+		1000 = 0 
+		100 = kallah_events.1
+		100 = emet_events.3
+	}
 }
 
 on_thri_yearly_pulse_3 = {
@@ -3351,10 +3355,6 @@ on_four_year_pulse_3 = {
 }
 
 on_four_year_pulse_4 = {
-	random_event = {
-		1000 = 0 
-		50 = emet_events.3
-	}
 	random_events = {
 		# ht_randomevents.txt
 		150 = ht_random_events.1

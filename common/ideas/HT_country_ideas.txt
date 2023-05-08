@@ -1,0 +1,90 @@
+#template for national ideas
+#<country_tag>_ideas = {
+#
+#    free = yes
+#
+#    start = {
+#       modifier = 0.1
+#       modifier2 = -1
+#    }
+#    bonus = {
+#
+#    }
+#
+#   <idea_name> = {
+#
+#       modifier3 = 25
+#   }
+#    
+#}
+
+###########################
+#   please write your ideas in your own section (see below). use like 2 enters to create noticable space
+###########################
+
+
+#south europe section
+
+
+MAS_ideas = {
+
+    free = yes
+
+    start = {
+
+    }
+    bonus = {
+
+    }
+    
+}
+
+
+###########################
+#   East Indies
+###########################
+
+YOD_ideas = {
+	start = {
+		trade_steering = 0.1
+		trade_efficiency = 0.1
+	}
+
+	bonus = {
+		prestige = 1
+	}
+
+	trigger = {
+		religion_group = kallah
+	}
+
+	free = yes		#will be added at load.
+
+	yod_reaching_hand = {
+		monthly_karma = 0.5
+		yearly_karma_decay = 0.005
+		tolerance_heathen = -1
+	}
+	yod_merchant = {
+		global_trade_power = 0.15
+	}
+	yod_flame_of_life = {
+		fire_damage = 0.10
+		leader_land_fire = 1
+		leader_naval_fire = 1
+	}
+	yod_sea_faring = {
+		global_sailors_modifier = 0.2
+		naval_morale = 0.15
+		naval_attrition = 0.15
+	}
+	yod_advising = {
+		advisor_pool = 1
+	}
+	yod_temp = {
+		technology_cost = -0.05
+	}
+	yod_temp_2 = {
+		monthly_piety_accelerator = 0.005
+	}
+}

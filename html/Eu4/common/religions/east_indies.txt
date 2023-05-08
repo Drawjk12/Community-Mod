@@ -1,0 +1,28 @@
+kallah = {
+	flag_emblem_index_range = { 110 110 }
+	meku = {
+		icon = 26
+		color = { 127 178 51 }
+		province = {
+		}
+		country = {
+		}
+		country_as_secondary = {
+		}
+
+		blessings = {
+			blessing_yasna
+			blessing_haoma
+			blessing_navjote
+			blessing_manthras
+			blessing_dakhma
+		}
+		
+		heretic = { MAZDAKI MANICHEAN }	
+	}
+	
+	harmonized_modifier = harmonized_zoroastrian_group
+	
+	crusade_name = HOLY_WAR
+	
+}

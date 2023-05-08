@@ -7,12 +7,19 @@ HT_hre_monarchy = {
             }
         }
 
+
         faction_in_power_reforms = {
             reforms = {
                 merchant_power_reform
                 militia_power_reform
             }
         }
+		east_indies_monarchies = {
+			reforms = {
+				ht_ei_monarchy_merchants_reform
+				ht_id_feudal_theocracy
+			}
+		}
     }
     basic_reform = hre_monarchy_type
 

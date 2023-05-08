@@ -1,0 +1,7 @@
+capital = 2387
+technology_group = western
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+religion = catholic
+primary_culture = piedmontese

@@ -8,3 +8,5 @@ add_core = YOD
 add_core = ALP
 
 1212.3.19 = { owner = ALP }
+religion = meku
+culture = emet

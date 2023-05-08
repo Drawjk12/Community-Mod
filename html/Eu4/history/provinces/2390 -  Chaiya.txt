@@ -1,0 +1,12 @@
+
+owner = YOD
+base_production = 2
+base_tax = 2
+base_manpower = 2
+add_core = YOD
+
+center_of_trade = 1
+add_core = MLM
+1212.3.19 = { owner = MLM }
+religion = meku
+culture = emet

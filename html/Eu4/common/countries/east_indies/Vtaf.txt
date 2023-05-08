@@ -1,0 +1,17 @@
+color = { 15 15 15 }
+monarch_names = {
+	"" "" "" "" "" "" "" "" "" "" "" ""
+}
+leader_names = {
+	"" "" "" "" "" "" "" "" "" "" "" ""
+}
+ship_names = {
+	"" "" "" "" "" "" "" "" "" "" "" ""
+}
+fleet_names = {
+	"" "" "" "" "" "" "" "" "" "" "" ""
+}
+army_names = {
+	"" "" "" "" "" "" "" "" "" "" "" ""
+}
+graphical_culture = westerngfx

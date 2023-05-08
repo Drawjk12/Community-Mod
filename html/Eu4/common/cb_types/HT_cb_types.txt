@@ -1,0 +1,12 @@
+cb_convert_northern = {
+    valid_for_subject = no
+
+    is_triggered_only = yes
+    months = 300
+
+    prerequisites = {
+        is_emperor = yes
+    }
+
+    war_goal = war_goal_convert_to_hre
+}

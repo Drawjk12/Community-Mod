@@ -6,3 +6,6 @@ base_manpower = 1
 add_core = YOD
 
 add_core = TAV
+1212.3.19 = { owner = TAV }
+religion = meku
+culture = emet

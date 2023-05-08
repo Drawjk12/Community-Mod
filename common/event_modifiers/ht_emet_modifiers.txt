@@ -1,0 +1,7 @@
+HT_apple = {
+	administrative_efficiency = 0.5
+	global_monthly_devastation = 0.1
+	monthly_karma = -0.5
+	monthly_karma_accelerator = 0.05
+	yearly_corruption = 0.1
+}

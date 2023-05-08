@@ -1,29 +1,71 @@
 capital = 2387
 technology_group = western
 government = monarchy
-add_government_reform = plutocratic_reform
+add_government_reform = ht_ei_monarchy_merchants_reform
 government_rank = 2
-religion = meku
+religion = orthodox_meku
 primary_culture = emet
 mercantilism = 1
-monarch = {
-	name = "Mo Ve Emunah"
-	dynasty = "Ve Emunah"
-    regent = yes
-	culture = emet
-	religion = meku
-    adm = 6
-    dip = 6
-    mil = 3
-	leader = {
-        type = general
-        fire = 0
-        shock = 3
-        manuever = 6
-        siege = 1
-    }
+historical_friend = ALP
+historical_friend = MLM
+historical_friend = TAV
+620.12.25 = {
+	monarch = {
+		name = "Amr Ve Emunah"
+		dynasty = "Ve Emunah"
+		culture = emet
+		religion = orthodox_meku
+		adm = 6
+		dip = 6
+		mil = 1
+		birth_date = 1090.12.25
+	}
+}
+1020.11.3 = {
+	heir = {
+		name = "Mos Ve Emunah"
+		dynasty = "Ve Emunah"
+		culture = emet
+		religion = orthodox_meku
+		adm = 4
+		dip = 5
+		mil = 2
+		birth_date = 1020.11.3
+	}
+}
+1033.11.3 = { 
+	monarch = {
+		name = "Mos Ve Emunah"
+		dynasty = "Ve Emunah"
+		culture = emet
+		religion = orthodox_meku
+		adm = 4
+		dip = 5
+		mil = 2
+		birth_date = 1020.11.3
+		leader = {
+			type = general
+			fire = 0
+			shock = 3
+			manuever = 6
+			siege = 1
+		}
+	}
+}
+1093.11.3 = {
+	monarch = {
+		name = "Gen the wise"
+		dynasty = "Ve Emunah"
+		regent = yes
+		culture = emet
+		religion = orthodox_meku
+		adm = 5
+		dip = 5
+		mil = 2
+		birth_date = 1075.5.3
+	}
 }
 
-1210.1.1 = {
+1212.1.1 = {
 	capital = 594
 }

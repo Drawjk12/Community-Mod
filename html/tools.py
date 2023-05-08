@@ -6,6 +6,7 @@ import numpy as np
 def parseHtmls(html):
     HtmlFile = open(html, 'r', encoding='utf-8')
     wholeFile =  HtmlFile.readlines()
+    HtmlFile.close()
     return wholeFile
 
 def saveHtmls(htmls, htmlsFiles):
@@ -43,8 +44,8 @@ def parseEu4():
         #Get id
         id = re.sub('\D', '', provFile[3:])
         provLines = []
-        with open(provFile, 'r', encoding='utf-8') as prov:
-            provLines.append(prov.readline())
+        with open(provFile, 'r') as prov:
+            provLines = prov.readlines()
             prov.close()
         for line in provLines:
             if not line.strip():
@@ -58,6 +59,8 @@ def parseEu4():
                     owners[line[7:10]]+= [id]
                 elif re.match(r'^owner =\w{1,99}', line):
                     owners[line[7:10]]+= [id]
+                elif re.match(r'^owner', line):
+                    print(line)
             except:
                 if re.match(r'^owner=\w{1,99}', line):
                     owners[line[6:9]] = [id]
@@ -67,6 +70,8 @@ def parseEu4():
                     owners[line[7:10]] = [id]
                 elif re.match(r'^owner =\w{1,99}', line):
                     owners[line[7:10]] = [id]
+                elif re.match(r'^owner', line):
+                    print(line)
 
     #
     groupLines = []

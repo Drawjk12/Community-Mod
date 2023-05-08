@@ -2,17 +2,27 @@ shoshana_disaster = {
 	potential = {
 		religion = orthodox_meku
 		tag = YOD
-		NOT = {
-			exists = ALP
-			exists = MLM
-			exists = TAV
+		OR = {
+			NOT = {
+				exists = ALP
+				exists = MLM
+				exists = TAV
+			}
+			has_country_flag = shoshana_flag
+		}
+		any_owned_province = {
+			OR = {
+				is_core = ALP
+				is_core = MLM
+				is_core = TAV
+			}
 		}
 	}
 	can_start = {
 		has_regency = yes
 		estate_influence = {
 			estate = estate_burghers
-			influence = 30
+			influence = 33
 		}
 	}
 	can_stop = {
@@ -50,7 +60,7 @@ shoshana_disaster = {
 		heir_claim = 75
 	}
 	modifier = {
-		global_unrest = 5
+		global_unrest = 3
 		stability_cost_modifier = 0.25
 		merchants = -3
 	}
@@ -63,7 +73,7 @@ shoshana_disaster = {
 		}
 		random_events = {
 			1000 = 0
-			50 = emet_events.3
+			100 = emet_events.3
 			100 = emet_events.4
 		}
 	}
