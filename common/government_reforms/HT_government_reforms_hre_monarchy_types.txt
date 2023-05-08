@@ -24,7 +24,7 @@ hre_monarchy_type = {
 	
 	modifiers = {
 		nobles_influence_modifier = 0.05
-		burgher_influence_modifier = 0.05
+		burghers_influence_modifier = 0.05
 	}
 }
 
@@ -50,7 +50,48 @@ hre_massue_monarchy = {
 	nation_designer_cost = 0
 	modifiers = {
 		diplomatic_reputation = 2
-		burgher_loyalty_modifier = 0.5
+		burghers_loyalty_modifier = 0.5
 	}
 
+}
+merchant_power_reform = {
+    icon = ""
+    potential = {
+        NOT = { has_reform = militia_power_reform}      ### the hre goverment
+    }
+
+
+    modifiers = {
+        ### the merchant modifiers
+
+        if = {
+            limit = {
+                ROOT = {
+                    is_part_of_hre = yes
+                }
+            }
+            naval_forcelimit_modifier = 0.2
+        }
+    }
+}
+
+militia_power_reform = {
+    icon = ""
+    potential = {
+        NOT = { has_reform = merchant_power_reform}      ### the hre goverment
+    }
+
+
+    modifiers = {
+        ### the militia modifiers
+
+        if = {
+            limit = {
+                ROOT = {
+                    is_part_of_hre = yes
+                }
+            }
+            land_forcelimit_modifier = 0.1
+        }
+    }
 }

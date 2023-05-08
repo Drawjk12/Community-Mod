@@ -1,0 +1,48 @@
+town_recruiter = {
+    monarch_power = ADM
+    #bonus
+    merc_maintenance_modifier = -0.10
+    allow_only_male = yes
+    chance = {
+        factor = 0
+        modifier = {
+            factor = 1
+            owner = { is_part_of_hre = yes }
+        }
+    }
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+mass_trainer = {
+    monarch_power = MIL
+    #bonus
+    mercenary_discipline = 0.05
+    allow_only_male = yes
+
+    chance = {
+        factor = 0
+        modifier = {
+            factor = 1
+            owner = { is_part_of_hre = yes }
+        }
+    }
+    ai_will_do = {
+        factor = 1
+    }
+}
+
+naval_investor = {
+    monarch_power = DIP
+    #bonus
+    global_ship_recruit_speed = -0.15
+    allow_only_male = yes
+
+    chance = {
+        factor = 1
+    }
+    ai_will_do = {
+        factor = 1
+    }
+}

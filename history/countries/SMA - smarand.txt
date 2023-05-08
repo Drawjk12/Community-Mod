@@ -4,6 +4,10 @@ government_rank = 1
 technology_group = western
 capital = 122
 
-1200.1.1 = {
-	
+1200.2.2 = {
+	add_government_power = { # adds the specified amount of power
+        mechanic_type = merchants_vs_militia_mechanic
+        power_type = governmental_power
+        value = 50
+	}
 }

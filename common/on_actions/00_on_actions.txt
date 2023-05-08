@@ -1104,66 +1104,37 @@ on_great_project_constructed = {
 # country
 on_new_monarch = {
 	#hre_type check and shit
-	if = {
-        #if the bool is equal to 1 (has added the point to the militia pool) and the monarchist are NOT in power
-        limit = {
-            ROOT = {
-                check_variable = { which = member_hre_influence_bool value = 1}
-                NOT = { check_variable = { which = member_hre_influence_bool value = 2 } }
-                has_government_power = {
-					mechanic_type = merchants_vs_militia_mechanic
-					power_type = governmental_power
-					value = 1
-				}
-            }
-        }
-        #change the bool to 0 (false) 
-        ROOT = {
-            subtract_variable = {
-               which = member_hre_influence_bool 
-               value = 1
-            }
-        }
-        #remove one point from the pool
-        emperor = {
-            subtract_variable = {
-                which = hre_emperor_militia_strength
-                value = 1
-            }
-        }
+	export_to_variable = {
+		which = new_ruler_dip_skill
+		value = DIP
+		who = ROOT
+	}
+	export_to_variable = {
+		which = new_ruler_mil_skill
+		value = MIL
+		who = ROOT
 	}
 	if = {
-        #if the bool is equal to 0 (has NOT added the point to the militia pool) and the monarchist are YES in power
-        limit = {
-            ROOT = {
-                check_variable = { which = member_hre_influence_bool value = 0}
-                NOT = { check_variable = { which = member_hre_influence_bool value = 1 } }
-                not = {
-					has_government_power = {
-						mechanic_type = merchants_vs_militia_mechanic
-						power_type = governmental_power
-						value = 1
-					}
-				}
-            }
-        }
-        #change the bool to 1 (true) 
-        ROOT = {
-            add_variable = {
-               which = member_hre_influence_bool 
-               value = 1
-            }
-           
-        }
-        #add one point from the pool
-        emperor = {
-            change_variable = {
-                which = hre_emperor_militia_strength
-                value = 1
-            }
-        }
-    }
+       limit = {
+			check_variable = {
+				which = new_ruler_dip_skill
+				which = new_ruler_mil_skill
+			}
+	   }
+        add_government_reform = merchant_power_reform
 
+    }
+	if = {
+		limit = {
+			 check_variable = {
+				which = new_ruler_mil_skill
+				which = new_ruler_dip_skill
+			 }
+		}
+		add_government_reform = militia_power_reform
+ 
+	 }
+	log = "[emperor.hre_emperor_militia_strength.GetValue] is the current value"
 	on_new_monarch_effect = yes
 	crimean_succession_effect = yes #Scripted effect
 	slesvig_question_effect = yes #Scripted effect
@@ -1611,12 +1582,6 @@ on_successive_emperor = {
 # ROOT = New Emperor 
 on_emperor_elected = {
 	#emperor var traverse
-	ROOT = {
-        set_variable = {
-            which = hre_emperor_militia_strength
-            value = from.hre_emperor_militia_strength.GetValue
-        }
-    }
     FROM = {
         set_variable = {
             which = hre_emperor_militia_strength
@@ -2249,8 +2214,15 @@ on_siberian_pulse = {
 
 # country random events
 on_monthly_pulse = {
+	if = {
+		limit = {
+			ROOT = { is_emperor = yes }
+		}
+		set_variable = {
+			which = hre_emperor_militia_strength
+			value = 0
+		}
 
-	emperor = {
         set_variable = {
             which = hre_members_var
             value = 0
@@ -2260,13 +2232,23 @@ on_monthly_pulse = {
             which = hre_power_perc
             value = 0
         }
-            every_country = {
-                limit = { is_part_of_hre = yes } 
-            }
-            change_variable = {
-                which = hre_members_var
-                value = 1
-            }
+        every_country = {
+            limit = { is_part_of_hre = yes } 
+			change_variable = {
+				which = hre_members_var
+				value = 1
+			}
+        }
+		every_country = {
+			limit = {
+				is_part_of_hre = yes has_reform = militia_power_reform
+			}
+			change_variable = {
+				which = hre_emperor_militia_strength
+				value = 1
+			}
+		}
+
         divide_variable = {
             which = hre_emperor_militia_strength
             value = hre_members_var
@@ -2280,6 +2262,7 @@ on_monthly_pulse = {
             value = hre_emperor_militia_strength
             who = ROOT
         }
+		log = "[emperor.hre_power_perc.GetValue] militia influence"
         #acces hre_power_perc in the reforms
     }
 

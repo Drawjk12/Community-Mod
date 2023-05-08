@@ -18,7 +18,7 @@ guiTypes = {
 		#the influence
 		instantTextBoxType = {
 			name = "hre_mil_influence_text"
-			position = { x = 500 y = 128 }
+			position = { x = 403 y = 80 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}

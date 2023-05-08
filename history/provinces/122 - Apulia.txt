@@ -12,3 +12,4 @@ discovered_by = sub_saharan
 discovered_by = eastern
 discovered_by = muslim
 fort_15th = yes
+culture = south_italian_culture

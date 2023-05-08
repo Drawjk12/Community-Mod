@@ -1,1 +1,2 @@
 is_city = yes
+culture = reformed_roma_bavaria_culture

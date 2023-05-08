@@ -6,6 +6,13 @@ HT_hre_monarchy = {
                 hre_massue_monarchy
             }
         }
+
+        faction_in_power_reforms = {
+            reforms = {
+                merchant_power_reform
+                militia_power_reform
+            }
+        }
     }
     basic_reform = hre_monarchy_type
 
