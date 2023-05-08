@@ -1,5 +1,10 @@
+is_city = yes
+owner = TIR
+hre = yes
+controller = TIR
+add_core = TIR
 discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 discovered_by = muslim
-is_city = no
+culture = old_romanic_culture

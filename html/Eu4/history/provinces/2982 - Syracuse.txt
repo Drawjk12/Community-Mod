@@ -1,8 +1,8 @@
-owner = MAS
+owner = MUE
 base_tax = 2
 base_manpower = 6
 base_production = 4
-controller = MAS
+controller = MUE
 is_city = yes
-add_core = MAS
+add_core = MUE
 hre = yes

@@ -220,7 +220,7 @@ estate_church = {
 	custom_name = {
 		desc = estate_babaylanes
 		trigger = {
-			tag = MAS
+			tag = MUE
 		}
 	}
 	custom_name = {

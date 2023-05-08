@@ -1,5 +1,9 @@
+is_city = yes
+add_core = EQA
 discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 discovered_by = muslim
-is_city = no
+owner = EQA
+hre = yes
+controller = EQA

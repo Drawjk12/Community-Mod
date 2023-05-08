@@ -266,7 +266,7 @@ estate_nobles = {
 	custom_name = {
 		desc = estate_timawa
 		trigger = {
-			tag = MAS
+			tag = MUE
 		}
 	}
 	custom_name = {

@@ -6,22 +6,31 @@ HT_hre_monarchy = {
                 hre_massue_monarchy
             }
         }
-
-
         faction_in_power_reforms = {
             reforms = {
                 merchant_power_reform
-                militia_power_reform
+                military_power_reform
             }
         }
-		east_indies_monarchies = {
+		
+    }
+    basic_reform = hre_monarchy_type
+
+    color = { 250 239 82 }
+}
+
+HT_monarchies = {
+    reform_levels = {
+        east_indies_monarchies = {
 			reforms = {
 				ht_ei_monarchy_merchants_reform
 				ht_id_feudal_theocracy
 			}
 		}
     }
+
+    ### make a basic reform?
     basic_reform = hre_monarchy_type
 
-    color = { 250 239 82 }
+    color = { 255 124 240}
 }

@@ -1,0 +1,73 @@
+#template for national ideas
+#<country_tag>_ideas = {
+#
+#    free = yes
+#
+#    start = {
+#       modifier = 0.1
+#       modifier2 = -1
+#    }
+#    bonus = {
+#
+#    }
+#
+#   <idea_name> = {
+#
+#       modifier3 = 25
+#   }
+#    
+#}
+
+###########################
+#   please write your ideas in your own section (see below). use like 2 enters to create noticable space
+###########################
+
+
+#south europe section
+
+
+
+
+### default hre idea group
+
+basic_hre_ideas = {
+    free = yes
+    start = {
+        reinforce_cost_modifier = -0.15
+        global_prov_trade_power_modifier = 0.1
+    }
+
+    bonus = {
+        build_cost = -0.2
+    }
+
+    hre_merchants_of_the_med = {
+        trade_efficiency = 0.05
+        naval_forcelimit_modifier = 0.1
+    }
+
+    hre_merc_placement = {
+        mercenary_cost = -0.15
+    }
+    hre_political_duality = {
+        legitimacy = 1
+    }
+
+    hre_flanked_defenses = {
+        global_garrison_growth = 0.10
+        siege_ability = 0.05
+    }
+
+    hre_militia_class= {
+        land_morale = 0.1
+    }
+
+    hre_merchant_class = {
+        merchants = 1
+    }
+
+    hre_perfect_balance = {
+        fire_damage = 0.05
+        mercenary_discipline = 0.05
+    }
+}

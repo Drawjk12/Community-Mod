@@ -5,6 +5,8 @@ add_government_reform = feudalism_reform
 government_rank = 1
 religion = catholic
 add_government_reform = hre_massue_monarchy
+add_government_reform = merchant_power_reform
+primary_culture = south_italian_culture
 1199.5.8 = {
 	monarch = {
 		name = "Torini IV"
@@ -13,5 +15,4 @@ add_government_reform = hre_massue_monarchy
 		dip = 4
 		mil = 3
 	}
-	
 }

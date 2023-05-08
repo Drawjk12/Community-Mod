@@ -2,7 +2,7 @@
 
 latin_culture_group = {
     south_italian_culture = {
-        primary = MAS
+        primary = MUE
 
         
     }

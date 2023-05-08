@@ -1,0 +1,89 @@
+country_event = {
+	id = HT_hre_in_power
+	title = HT_hre_in_power.t
+	desc =  HT_hre_in_power.d
+	picture = CONGRESS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "HT_hre_in_power.a"
+
+		if = {
+			limit = {
+				ROOT = { is_emperor = yes }
+			}
+
+			set_variable = {
+				which = hre_emperor_militia_strength
+				value = 0
+			}
+	
+			set_variable = {
+				which = hre_members_var
+				value = 0
+			}
+	
+			set_variable = {
+				which = hre_power_perc
+				value = 0
+			}
+			every_country = {
+				limit = { is_part_of_hre = yes } 
+				change_variable = {
+					which = hre_members_var
+					value = 1
+				}
+			}
+			every_country = {
+				limit = {
+					is_part_of_hre = yes 
+				}
+				export_to_variable = {
+					which = new_ruler_dip_skill
+					value = DIP
+					who = ROOT
+				}
+				export_to_variable = {
+					which = new_ruler_mil_skill
+					value = MIL
+					who = ROOT
+				}
+				if = {
+					limit = {
+						 check_variable = {
+							which = new_ruler_mil_skill
+							which = new_ruler_dip_skill
+						 }
+					}
+					change_variable = {
+						which = hre_emperor_militia_strength
+						value = 1
+					}
+				}
+				else = {
+					subtract_variable = {
+						which = hre_emperor_militia_strength
+						value = 1
+					}
+				}
+			}
+	
+			divide_variable = {
+				which = hre_emperor_militia_strength
+				which = hre_members_var
+			}
+			multiply_variable = {
+				which = hre_emperor_militia_strength
+				value = 100
+			}
+			export_to_variable = {
+				which = hre_power_perc
+				value = hre_emperor_militia_strength
+				who = ROOT
+			}
+			log = "[root.hre_power_perc.GetValue] militia influence"
+		}
+	}
+
+}

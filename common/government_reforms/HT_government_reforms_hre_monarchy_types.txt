@@ -31,7 +31,7 @@ hre_monarchy_type = {
 # hre subtypes
 
 hre_basic_monarchy = {
-	basic_reform = hre_monarchy_type
+	#basic_reform = hre_monarchy_type
 	icon = "castle"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
@@ -43,7 +43,7 @@ hre_basic_monarchy = {
 }
 
 hre_massue_monarchy = {
-	basic_reform = hre_monarchy_type
+	#basic_reform = hre_monarchy_type
 	icon = "crown"
 	allow_normal_conversion = no
 	valid_for_nation_designer = yes
@@ -54,44 +54,38 @@ hre_massue_monarchy = {
 	}
 
 }
+
 merchant_power_reform = {
     icon = ""
-    potential = {
-        NOT = { has_reform = militia_power_reform}      ### the hre goverment
+	potential = {
+		is_part_of_hre = yes
+	}
+
+    trigger = {
+        NOT = { has_reform = military_power_reform }      ### the hre goverment
     }
 
 
     modifiers = {
         ### the merchant modifiers
-
-        if = {
-            limit = {
-                ROOT = {
-                    is_part_of_hre = yes
-                }
-            }
-            naval_forcelimit_modifier = 0.2
-        }
+        naval_forcelimit_modifier = 0.2
+        
     }
 }
 
-militia_power_reform = {
+military_power_reform = {
     icon = ""
-    potential = {
-        NOT = { has_reform = merchant_power_reform}      ### the hre goverment
+	potential = {
+		is_part_of_hre = yes
+	}
+
+    trigger = {
+        NOT = { has_reform = merchant_power_reform }      ### the hre goverment
     }
 
 
     modifiers = {
         ### the militia modifiers
-
-        if = {
-            limit = {
-                ROOT = {
-                    is_part_of_hre = yes
-                }
-            }
-            land_forcelimit_modifier = 0.1
-        }
+        land_forcelimit_modifier = 0.1
     }
 }

@@ -1,0 +1,6 @@
+owner = TIR
+hre = yes
+controller = TIR
+is_city = yes
+add_core = TIR
+culture = old_romanic_culture

@@ -26,7 +26,7 @@
 #south europe section
 
 
-MAS_ideas = {
+MUE_ideas = {
 
     free = yes
 

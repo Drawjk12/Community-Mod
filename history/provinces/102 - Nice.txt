@@ -1,6 +1,10 @@
 is_city = yes
+culture = old_romanic_culture
+add_core = HAS
 discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 discovered_by = muslim
-culture = old_romanic_culture
+owner = HAS
+hre = yes
+controller = HAS

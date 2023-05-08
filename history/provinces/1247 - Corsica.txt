@@ -1,5 +1,9 @@
 is_city = yes
+add_core = HAS
 discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 discovered_by = muslim
+owner = HAS
+hre = yes
+controller = HAS

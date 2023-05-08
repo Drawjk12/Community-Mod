@@ -1122,16 +1122,9 @@ on_new_monarch = {
 			}
 	   }
         add_government_reform = merchant_power_reform
-	if = {
-		limit = {
-			 check_variable = {
-				which = new_ruler_mil_skill
-				which = new_ruler_dip_skill
-			 }
-		}
-		add_government_reform = militia_power_reform
- 
-	 }
+	else = {
+		add_government_reform = military_power_reform
+	}
 	log = "[emperor.hre_emperor_militia_strength.GetValue] is the current value"
 	on_new_monarch_effect = yes
 	crimean_succession_effect = yes #Scripted effect
@@ -1184,6 +1177,7 @@ on_new_monarch = {
 		50 = dynastic_events.4
 		50 = dynastic_events.5
 		25 = harem_events.7		#Failed Policy of Fratricide
+	}
 	}
 }
 
@@ -2212,59 +2206,14 @@ on_siberian_pulse = {
 
 # country random events
 on_monthly_pulse = {
-	if = {
-		limit = {
-			ROOT = { is_emperor = yes }
-		}
-		set_variable = {
-			which = hre_emperor_militia_strength
-			value = 0
-		}
-
-        set_variable = {
-            which = hre_members_var
-            value = 0
-        }
-
-        set_variable = {
-            which = hre_power_perc
-            value = 0
-        }
-        every_country = {
-            limit = { is_part_of_hre = yes } 
-			change_variable = {
-				which = hre_members_var
-				value = 1
-			}
-        }
-		every_country = {
-			limit = {
-				is_part_of_hre = yes has_reform = militia_power_reform
-			}
-			change_variable = {
-				which = hre_emperor_militia_strength
-				value = 1
-			}
-		}
-
-        divide_variable = {
-            which = hre_emperor_militia_strength
-            value = hre_members_var
-        }
-        multiply_variable = {
-            which = hre_emperor_militia_strength
-            value = 100
-        }
-        export_to_variable = {
-            which = hre_power_perc
-            value = hre_emperor_militia_strength
-            who = ROOT
-        }
-		log = "[emperor.hre_power_perc.GetValue] militia influence"
         #acces hre_power_perc in the reforms
-    }
-
-
+		if = {
+			limit = { imperial_influence = 50 }
+			country_event = {
+				id = HT_hre_in_power
+			}
+		}
+		
 }
 on_yearly_pulse = {
 	events = {

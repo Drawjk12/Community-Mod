@@ -1,10 +1,10 @@
-owner = MAS
+owner = MUE
 base_tax = 6
 base_manpower = 4
 base_production = 7
-controller = MAS
+controller = MUE
 center_of_trade = 2
 is_city = yes
-add_core = MAS
+add_core = MUE
 fort_15th = yes
 hre = yes
