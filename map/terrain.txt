@@ -30,6 +30,7 @@ categories =  {
 		movement_cost = 1.0
 		
 		terrain_override = {
+			
 		}
 	}	
 
@@ -44,7 +45,8 @@ categories =  {
 		local_development_cost = 0.5
 		nation_designer_cost_multiplier = 0.75		
 		
-		terrain_override = {		
+		terrain_override = {
+			23 4145 4144 17 22 4146 20 21 10 4153 18 4114 24 2752 4143 5 4 1 1930 27 28 30 1261 1961 2749 4261 314 4263 1957 1083 1082 1972 305 1078 2427 1074 2428 2433 480 1065 2443 1062 2442 1055 2446 1052 1047 1043 1044 1041 2440 1035 32
 		}
 	}
 
@@ -61,7 +63,8 @@ categories =  {
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
-		}		
+			
+		}
 	}
 	
 	forest = {
@@ -76,8 +79,9 @@ categories =  {
 		local_development_cost = 0.2
 		nation_designer_cost_multiplier = 0.9
 		
-		terrain_override = { 
-		}                                      
+		terrain_override = {
+			
+		}
 	}
 	
 	hills = {
@@ -94,6 +98,7 @@ categories =  {
 		supply_limit = 5
 		
 		terrain_override = {
+			
 		}
 	}
 
@@ -111,6 +116,7 @@ categories =  {
 		supply_limit = 6
 		
 		terrain_override = {
+			
 		}
 	}
 	
@@ -128,6 +134,7 @@ categories =  {
 		supply_limit = 4
 		
 		terrain_override = {
+			
 		}
 	}
 
@@ -153,6 +160,7 @@ categories =  {
 		nation_designer_cost_multiplier = 1
 		
 		terrain_override = {
+			
 		}
 	}
 
@@ -169,6 +177,7 @@ categories =  {
 		supply_limit = 5
 		
 		terrain_override = {
+			
 		}
 	}	
 	
@@ -185,6 +194,7 @@ categories =  {
 		supply_limit = 5
 
 		terrain_override = {
+			
 		}
 	}
 	
@@ -200,6 +210,7 @@ categories =  {
 		nation_designer_cost_multiplier = 0.8
 		
 		terrain_override = {
+			
 		}
 	}
 	
@@ -215,7 +226,8 @@ categories =  {
 		supply_limit = 4
 
 		terrain_override = {
-		}	
+			
+		}
 	}
 	
 	coastline = {
@@ -229,6 +241,7 @@ categories =  {
 		supply_limit = 6 
 		
 		terrain_override = {
+			
 		}
 	}	
 	
@@ -245,6 +258,7 @@ categories =  {
 		allowed_num_of_buildings = 1
 
 		terrain_override = {
+			
 		}
 	}
 
@@ -262,6 +276,7 @@ categories =  {
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
+			
 		}
 	}
 
@@ -277,7 +292,8 @@ categories =  {
 		nation_designer_cost_multiplier = 0.95	
 		
 		terrain_override = {
-		}		
+			
+		}
 	}
 	
 	steppe = {
@@ -292,7 +308,8 @@ categories =  {
 		supply_limit = 6
 		
 		terrain_override = {
-		}	
+			
+		}
 	}	
 }
 	

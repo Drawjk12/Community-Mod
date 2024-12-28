@@ -5,7 +5,6 @@ TIR = "countries/Tirosio.txt"
 EQA = "countries/Eqardi.txt"
 WEA = "countries/Wearaska.txt"
 HAS = "countries/Hasko.txt"
-
 ##########################################
 #	east indies
 ##########################################
@@ -14,3 +13,4 @@ YOD = "countries/east_indies/Yod.txt"
 ALP = "countries/east_indies/Reshi.txt"
 MLM = "countries/east_indies/Mlem.txt"
 TAV = "countries/east_indies/Vtaf.txt"
+J01 = "countries/jam_saheli.txt"

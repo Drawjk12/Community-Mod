@@ -1,1 +1,6 @@
 is_city = no
+culture = sahra_west_culture
+add_core = J01
+owner = J01
+controller = J01
+trade_goods = cloth

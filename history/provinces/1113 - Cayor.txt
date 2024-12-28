@@ -1,0 +1,2 @@
+trade_goods = naval_supplies
+is_city = no

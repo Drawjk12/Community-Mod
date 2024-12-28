@@ -1,0 +1,2 @@
+trade_goods = glass
+is_city = no

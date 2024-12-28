@@ -1,0 +1,2 @@
+trade_goods = tropical_wood
+is_city = no

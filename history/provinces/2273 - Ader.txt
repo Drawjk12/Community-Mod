@@ -1,0 +1,2 @@
+trade_goods = cotton
+is_city = no

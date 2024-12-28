@@ -1,0 +1,2 @@
+trade_goods = fur
+is_city = no

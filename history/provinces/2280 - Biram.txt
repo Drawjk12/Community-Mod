@@ -1,0 +1,2 @@
+trade_goods = livestock
+is_city = no

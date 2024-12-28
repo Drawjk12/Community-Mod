@@ -1,41 +1,41 @@
-white_sea = {
+white_sea = { 
 	location = 1652
-	color = {
+	color = { 
 		245 81 33 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "baltic"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "gusirov"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		313 1262 1958 312 4259 4262 4122 4258 1955 4257
 		4256 1755 4129 1964 1963 1080 1083 1079 4266 1962
 		1077 1072 1780 1073 1777 309 
 	}
 }
-north_sea = {
+north_sea = { 
 	location = 1975
-	color = {
+	color = { 
 		84 194 189 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "dogera_straight"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		4378 4118 4377 374 4120 373 4121 372 4380 4119
 		4379 375 376 4369 240 239 241 4366 242 4372
 		1861 4367 245 4368 4785 4375 244 247 246 4361
@@ -44,34 +44,34 @@ north_sea = {
 		370 369 
 	}
 }
-casso = {
+casso = { 
 	location = 1326
 	inland = yes
-	color = {
+	color = { 
 		251 183 55 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "syria"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "crimea"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "persia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		468 2417 464 465 443 439 2349 2214 4341 426
 		417 4339 4340 421 4306 2199 2208 2201 2198 425
 		419 2205 2202 4299 4305 420 2203 423 438 2362
@@ -80,105 +80,105 @@ casso = {
 		2367 424 437 469 
 	}
 }
-reskisi = {
+reskisi = { 
 	location = 2418
 	end = yes
-	color = {
+	color = { 
 		165 140 88 
 	}
-	members = {
+	members = { 
 		2418 474 2366 2420 1966 4692 2369 2357 479 2354
 		473 1965 2421 1082 2422 4264 4267 1972 305 1078
 		2427 1074 2428 1071 4265 475 2444 2441 1076 1075
 		4690 4689 4686 4687 4688 2433 2434 480 
 	}
 }
-persia = {
+persia = { 
 	location = 4336
 	inland = yes
-	color = {
+	color = { 
 		66 149 90 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "bagdad"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "syria"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		4300 4172 2212 4338 2215 428 2216 427 2235 4326
 		2236 2350 2221 4325 4324 2224 435 446 445 432
 		2234 4171 2222 2213 4337 414 4335 429 433 4334
 		4336 436 2230 
 	}
 }
-bashra = {
+bashra = { 
 	location = 2052
-	color = {
+	color = { 
 		122 101 61 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "bagdad"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "hormuz"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		576 2231 504 4504 503 2052 521 4454 515 4455
 		2051 4456 4457 4512 505 517 4430 529 2089 530
 		4429 2030 531 4427 2029 4421 2032 2033 4431 1946
 		2034 4432 2036 4433 516 2054 
 	}
 }
-maran = {
+maran = { 
 	location = 4502
 	end = yes
-	color = {
+	color = { 
 		233 182 27 
 	}
-	members = {
+	members = { 
 		2068 2079 2086 4508 512 2066 4502 4501 4464 2087
 		528 4461 526 527 4453 2056 4462 518 2093 4480
 		2058 2053 2067 514 4506 513 4505 4503 2088 2072
 		506 4507 2064 519 4465 525 740 2057 4460 
 	}
 }
-kendreey = {
+kendreey = { 
 	location = 4443
 	end = yes
-	color = {
+	color = { 
 		219 4 85 
 	}
-	members = {
+	members = { 
 		2031 1949 4423 4436 2090 4439 547 4445 2082 546
 		4458 2092 548 4434 545 544 4435 541 4426 4422
 		4428 569 2035 532 4424 1948 4442 4437 4438 2037
 		542 2050 2028 4443 4444 
 	}
 }
-coronmandel = {
+coronmandel = { 
 	location = 1340
 	end = yes
-	color = {
+	color = { 
 		7 245 239 
 	}
-	members = {
+	members = { 
 		4413 534 535 537 4410 536 4412 2101 2100 4407
 		4409 572 4408 4417 540 2026 2085 538 533 4414
 		1947 4416 4415 2027 4420 539 2048 549 2080 2084
@@ -186,25 +186,25 @@ coronmandel = {
 		1101 
 	}
 }
-bengilal = {
+bengilal = { 
 	location = 1343
 	end = yes
-	color = {
+	color = { 
 		128 128 192 
 	}
-	members = {
+	members = { 
 		552 2043 2038 561 2039 4474 4475 564 4476 4477
 		2049 4450 4471 4479 2081 2046 4478 567 4473 568
-		579 573 2091 2041 
+		573 2091 2041 
 	}
 }
-utter = {
+utter = { 
 	location = 4488
 	end = yes
-	color = {
+	color = { 
 		0 128 64 
 	}
-	members = {
+	members = { 
 		4488 4447 4451 553 4470 560 2096 2044 4486 4483
 		4485 4472 558 4469 4452 551 550 4459 559 2063
 		523 4497 4494 4492 554 2094 4491 2055 4487 4484
@@ -214,13 +214,13 @@ utter = {
 		557 
 	}
 }
-sakamir = {
+sakamir = { 
 	location = 1968
 	end = yes
-	color = {
+	color = { 
 		0 64 128 
 	}
-	members = {
+	members = { 
 		577 448 447 2229 2226 578 2078 4509 4510 4511
 		4513 2075 509 2076 4449 507 2073 2077 452 2227
 		2225 449 451 2228 450 444 442 453 4343 454
@@ -228,13 +228,13 @@ sakamir = {
 		1969 2356 2364 2125 
 	}
 }
-xifang = {
+xifang = { 
 	location = 4680
 	end = yes
-	color = {
+	color = { 
 		128 64 64 
 	}
-	members = {
+	members = { 
 		4685 478 2355 4684 714 4681 4222 459 2126 461
 		2368 2360 2118 2120 4207 715 4208 2119 4683 719
 		2189 2122 707 708 2191 4676 4677 720 4669 717
@@ -242,26 +242,26 @@ xifang = {
 		4682 713 4206 
 	}
 }
-koriskov = {
+koriskov = { 
 	location = 2442
 	end = yes
-	color = {
+	color = { 
 		192 192 192 
 	}
-	members = {
+	members = { 
 		2445 1069 4691 2429 1070 2430 1067 1068 1064 1065
 		1066 716 1063 2443 2432 1061 2431 2436 2437 1054
 		1059 1062 2442 1060 4679 1057 1056 1055 1045 2435
 		2446 1058 2102 1052 1051 
 	}
 }
-wangjile = {
+wangjile = { 
 	location = 1377
 	end = yes
-	color = {
+	color = { 
 		128 128 192 
 	}
-	members = {
+	members = { 
 		1850 4656 729 4216 1050 4214 1048 2103 4659 1049
 		4215 2105 4217 4655 2186 2106 2742 2743 4232 732
 		1845 2694 2745 736 4227 737 1013 4229 734 4231
@@ -270,61 +270,61 @@ wangjile = {
 		4663 731 4660 4654 2107 2188 730 2108 4653 4661
 	}
 }
-huangzou = {
+huangzou = { 
 	location = 723
 	end = yes
-	color = {
+	color = { 
 		187 148 57 
 	}
-	members = {
+	members = { 
 		4672 4675 4202 725 4218 4664 724 4666 4667 721
 		4219 4665 4674 722 4673 4203 723 2114 4671 2115
 		703 2136 2747 702 4670 709 4223 701 2182 698
 	}
 }
-nepal = {
+nepal = { 
 	location = 711
 	end = yes
-	color = {
+	color = { 
 		0 128 128 
 	}
-	members = {
+	members = { 
 		2134 2128 4516 4514 676 2071 2070 4515 4693 711
 		4522 705 4205 4519 4518 4517 677 2130 706 2123
 		2192 2121 712 4209 2124 710 4520 2074 4521 4204
 		508 
 	}
 }
-zhongyang = {
+zhongyang = { 
 	location = 689
 	end = yes
-	color = {
+	color = { 
 		128 0 0 
 	}
-	members = {
+	members = { 
 		697 2177 693 694 2178 1836 687 2171 4211 2169
 		679 2170 2183 2184 699 2181 2180 689 4198 700
 		2172 672 4199 2168 4213 4212 680 681 2179 
 	}
 }
-bengij = {
+bengij = { 
 	location = 4233
 	end = yes
-	color = {
+	color = { 
 		120 73 96 
 	}
-	members = {
+	members = { 
 		2113 4652 704 4194 1816 696 4195 695 2138 2139
 		690 691 2140 692 2137 688 2141 4196 2142 2176
 	}
 }
-jingguo_tongo = {
+jingguo_tongo = { 
 	location = 1372
 	end = yes
-	color = {
+	color = { 
 		255 0 0 
 	}
-	members = {
+	members = { 
 		1829 2154 2155 738 2153 670 2156 2157 2158 667
 		665 2159 2160 666 2162 2161 2164 4819 616 668
 		669 2149 2148 684 1822 685 2145 2143 2175 1821
@@ -333,40 +333,39 @@ jingguo_tongo = {
 		2150 
 	}
 }
-nanchi = {
+nanchi = { 
 	location = 613
 	end = yes
-	color = {
+	color = { 
 		94 128 30 
 	}
-	members = {
-		2372 610 4821 1016 2373 1022 4822 2374 606
-		605 2380 2375 608 4823 4824
-		607 612 604 4827 2378
-		1823 1844 2384 611 2382 4838 4840 4839
-		4836 2385 614 615 4837 4820 663 2371 2381
+	members = { 
+		2372 610 4821 1016 2373 1022 4822 2374 606 2375
+		608 4823 4824 607 2378 1823 1844 2384 611 2382
+		4838 4840 4839 2385 614 615 4837 4820 663 2371
+		2381 
 	}
 }
-yindusho = {
+yindusho = { 
 	location = 2167
 	end = yes
-	color = {
+	color = { 
 		242 198 21 
 	}
-	members = {
+	members = { 
 		587 660 2165 662 661 583 2166 582 4405 2396
 		563 2045 4482 562 565 4481 2040 4404 570 4440
 		1950 2397 2042 571 675 2748 2167 678 2135 2133
 		2131 2132 2395 566 
 	}
 }
-huangdi = {
+huangdi = { 
 	location = 1387
 	end = yes
-	color = {
+	color = { 
 		128 64 64 
 	}
-	members = {
+	members = { 
 		1029 4180 1818 4182 4181 1012 4186 1819 1820 1014
 		1017 1825 4184 1019 4183 1018 1830 4185 1020 1021
 		4187 1832 4359 1023 1837 1835 1030 4360 1028 4191
@@ -376,62 +375,57 @@ huangdi = {
 		1047 4192 4131 4193 1015 
 	}
 }
-malaya = {
+malaya = { 
 	location = 1361
 	end = yes
-	color = {
+	color = { 
 		87 160 14 
 	}
-	members = {
-		594 2393 596
-		595 621
-		2681 1999 1998 4816
-		620 4815
-		2686 4804 4806 2704 4805 636 637
-		2703 2709 2710 638 2712 4799 4800 2707 2708
-		2706 639 4801 2711 
+	members = { 
+		1999 1998 4806 2704 4805 636 637 2703 2709 2710
+		638 2712 4799 4800 2707 2708 639 4801 2711 
 	}
 }
-philipines = {
+philipines = { 
 	location = 657
 	end = yes
-	color = {
+	color = { 
 		0 128 255 
 	}
-	members = {
+	members = { 
 		657 4348 658 2698 2697 4349 656 655 4356 4354
 		652 653 2701 2702 4355 4351 4352 4353 654 2699
 		4350 2700 1235 1996 651 
 	}
 }
-malacca = {
+malacca = { 
 	location = 1357
 	end = yes
-	color = {
+	color = { 
 		64 0 128 
 	}
-	members = {
-		1245 4790 625 2689 4793
-		626 2691 628 629 4792 2690 4794 627 2692 631
-		2693 632 633 634 635 2696 2695 641 4797 4795
-		4798 2715 4845 2714 2713 644 4796 642 2716 2717
-		643 645 647 2719 1236 2720 2721 2722 2723 2724
-		2725 1238 1237 1992 2718 649 648 650 646 
+	members = { 
+		1245 625 2689 4793 626 2691 628 629 4792 2690
+		4794 627 2692 631 2693 632 633 634 635 2696
+		2695 641 4797 4795 4798 2715 4845 2714 2713 644
+		4796 642 2716 2717 643 645 647 2719 1236 2720
+		2721 2722 2723 2724 2725 1238 1237 1992 2718 649
+		648 650 646 
 	}
 }
-hormuz = {
+hormuz = { 
 	location = 1330
-	color = {
+	color = { 
 		141 43 10 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "alexandria"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		387 4280 388 389 4284 402 4283 2343 2344 4281
 		2345 4279 2346 386 2335 4276 2336 390 4282 391
 		2767 1215 2773 1212 2793 1209 2790 2789 2786 2788
@@ -439,13 +433,13 @@ hormuz = {
 		1230 
 	}
 }
-florida = {
+florida = { 
 	location = 1507
 	end = yes
-	color = {
+	color = { 
 		207 160 73 
 	}
-	members = {
+	members = { 
 		928 4881 2539 929 2542 932 2543 933 4882 2541
 		4880 2537 2538 2540 931 2531 930 925 2533 923
 		922 2530 2516 921 893 2665 887 4910 886 4911
@@ -453,13 +447,13 @@ florida = {
 		894 2669 4885 
 	}
 }
-carribean = {
+carribean = { 
 	location = 494
 	end = yes
-	color = {
+	color = { 
 		113 36 51 
 	}
-	members = {
+	members = { 
 		494 2534 927 4626 4625 926 2535 2536 482 483
 		2654 486 2655 4623 4622 4624 2656 487 485 484
 		489 4619 488 4618 2658 4620 4621 490 2659 492
@@ -468,13 +462,13 @@ carribean = {
 		2806 491 829 828 4601 
 	}
 }
-mexican_sea = {
+mexican_sea = { 
 	location = 1509
 	end = yes
-	color = {
+	color = { 
 		38 174 49 
 	}
-	members = {
+	members = { 
 		4589 842 2632 2650 4588 2634 843 4591 2652 846
 		2651 845 4590 2633 2631 2630 4598 4583 848 2641
 		2668 2499 884 888 4627 883 2666 2498 4606 861
@@ -482,13 +476,13 @@ mexican_sea = {
 		2647 4584 2628 4570 4641 2615 2619 4585 2635 4594
 	}
 }
-west_mexico = {
+west_mexico = { 
 	location = 1552
 	end = yes
-	color = {
+	color = { 
 		223 159 40 
 	}
-	members = {
+	members = { 
 		4587 2638 4586 2649 844 847 2629 2646 849 2648
 		4581 4571 852 2626 4572 2645 2627 851 2623 4573
 		4640 4643 856 860 2618 864 863 881 2494 2495
@@ -499,13 +493,13 @@ west_mexico = {
 		4633 879 
 	}
 }
-hudson_bay = {
+hudson_bay = { 
 	location = 1500
 	end = yes
-	color = {
+	color = { 
 		189 23 28 
 	}
-	members = {
+	members = { 
 		2554 950 952 2550 953 957 962 2639 2010 965
 		2560 967 2561 968 970 2558 2023 4926 2559 2563
 		4871 2564 2562 966 4874 963 969 955 956 2011
@@ -513,14 +507,14 @@ hudson_bay = {
 		949 4879 935 2527 2545 2544 2546 481 
 	}
 }
-central_america = {
+central_america = { 
 	location = 907
 	inland = yes
 	end = yes
-	color = {
+	color = { 
 		99 185 237 
 	}
-	members = {
+	members = { 
 		841 2653 2636 2637 4593 2662 840 838 2661 4592
 		4597 4595 2664 835 2663 836 839 2640 837 2660
 		2819 4599 4596 4604 4605 822 2816 2815 2810 2809
@@ -532,62 +526,62 @@ central_america = {
 		908 2512 910 2518 911 4903 914 2519 916 
 	}
 }
-peru = {
+peru = { 
 	location = 2820
 	end = yes
-	color = {
+	color = { 
 		128 128 0 
 	}
-	members = {
+	members = { 
 		2820 820 818 815 2945 2823 2944 808 807 806
 		809 810 811 814 2826 812 2822 2821 819 816
 		2002 817 821 2824 813 2827 2825 2943 
 	}
 }
-amazonia = {
+amazonia = { 
 	location = 1543
 	end = yes
-	color = {
+	color = { 
 		188 80 80 
 	}
-	members = {
+	members = { 
 		2828 805 796 793 2840 2940 2838 2829 2830 2832
 		2833 2900 2901 2947 804 802 2831 797 2946 795
 		2835 2882 2903 2920 2906 758 2905 2904 2902 803
 		801 2834 2941 2942 800 2888 
 	}
 }
-rio_de_plata = {
+rio_de_plata = { 
 	location = 1536
 	end = yes
-	color = {
+	color = { 
 		211 170 107 
 	}
-	members = {
+	members = { 
 		2839 791 2843 2845 2877 2867 2865 2866 779 2860
 		778 2851 2848 772 2850 773 2849 2861 2847 2842
 		2836 2844 2846 2837 794 2878 790 777 2853 2879
 		2852 2857 2884 
 	}
 }
-el_lagel_ = {
+el_lagel_ = { 
 	location = 769
 	end = yes
-	color = {
+	color = { 
 		0 0 64 
 	}
-	members = {
+	members = { 
 		799 2883 2854 2859 2858 2855 2887 769 766 764
 		775 776 2881 768 2897 2895 2893 2896 
 	}
 }
-brazil = {
+brazil = { 
 	location = 1531
 	end = yes
-	color = {
+	color = { 
 		20 190 58 
 	}
-	members = {
+	members = { 
 		763 2894 2892 2907 2919 2891 765 2899 762 761
 		760 757 756 2912 2921 755 2928 2926 2924 2886
 		752 750 751 753 2922 754 2915 2913 2916 759
@@ -595,25 +589,25 @@ brazil = {
 		2910 
 	}
 }
-chile = {
+chile = { 
 	location = 1540
 	end = yes
-	color = {
+	color = { 
 		162 74 140 
 	}
-	members = {
+	members = { 
 		2875 2841 792 2862 787 784 2873 783 2874 782
 		2869 1095 2025 781 2876 780 2868 786 2863 2872
 		785 2870 2871 1988 
 	}
 }
-california = {
+california = { 
 	location = 1558
 	end = yes
-	color = {
+	color = { 
 		230 203 19 
 	}
-	members = {
+	members = { 
 		869 2478 870 4636 2479 2480 872 2477 871 4638
 		2021 4637 2490 2020 2489 2019 2483 2482 2481 873
 		2488 2487 2003 2018 2603 2604 2605 2607 2606 973
@@ -621,41 +615,41 @@ california = {
 		2613 977 2612 978 2611 979 2601 
 	}
 }
-missisipi = {
+missisipi = { 
 	location = 890
 	inland = yes
 	end = yes
-	color = {
+	color = { 
 		120 164 216 
 	}
-	members = {
+	members = { 
 		4628 4629 2500 2497 882 4630 878 4632 4631 880
 		2496 885 4909 889 890 891 892 896 4886 897
 		2515 4908 899 2509 4914 898 2672 2625 2506 1809
 		2507 2009 901 2508 4915 903 4900 902 
 	}
 }
-canada = {
+canada = { 
 	location = 1008
 	inland = yes
 	end = yes
-	color = {
+	color = { 
 		31 222 65 
 	}
-	members = {
+	members = { 
 		2600 2599 2017 2602 2004 2598 2597 2595 1813 2594
 		1006 1005 2592 1003 2591 2590 2015 1007 2593 1008
 		1009 1010 1011 2005 2596 4920 4919 1004 998 999
 		1000 1002 2589 
 	}
 }
-virginia = {
+virginia = { 
 	location = 4923
 	end = yes
-	color = {
+	color = { 
 		108 78 55 
 	}
-	members = {
+	members = { 
 		4923 918 4904 900 2514 934 4913 941 4888 951
 		4889 2551 2556 2557 4876 964 4912 4890 1001 2588
 		991 2581 4894 992 4897 2585 2671 989 988 2670
@@ -665,39 +659,26 @@ virginia = {
 		947 2521 4892 
 	}
 }
-resia = {
-	location = 1471
-	color = {
-		225 142 51 
-	}
-	outgoing = {
-		name = "central_sahra"
-		path = {
-		}
-		control = {
-		}
-	}
-	outgoing = {
-		name = "sevilla"
-		path = {
-		}
-		control = {
-		}
-	}
-	members = {
-		345 2470 4569 4568 2464 2466 1127 1128 1129 2247
-		4967 4981 4980 4978 4977 1111 4976 4975 366 4565
-		4974 347 1110 348 4973 4968 4972 4971 4970 5090
-		4983 4982 4979 4969 
-	}
-}
-genui = {
+genui = { 
 	location = 1468
-	end = yes
-	color = {
+	color = { 
 		24 7 175 
 	}
-	members = {
+	outgoing = { 
+		name = "shamal"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	outgoing = { 
+		name = "resia"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
 		1112 1115 2243 2246 2244 2260 1131 1123 2250 2253
 		1125 1126 1119 2242 2241 1118 1114 2239 2238 1117
 		1121 1124 2248 1120 2240 1116 2237 1113 1122 2249
@@ -705,14 +686,27 @@ genui = {
 		1147 2294 1151 1152 2289 2257 2255 1163 
 	}
 }
-shamal = {
+shamal = { 
 	location = 2278
 	inland = yes
-	end = yes
-	color = {
+	color = { 
 		223 49 45 
 	}
-	members = {
+	outgoing = { 
+		name = "central_sahra"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	outgoing = { 
+		name = "maleni"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
 		1138 1140 2254 2256 2295 2267 1137 1135 2263 2264
 		2262 1133 2268 2265 2266 1136 2291 1144 1146 1145
 		1153 1162 1249 2280 2282 1156 2269 2273 2270 1143
@@ -720,13 +714,27 @@ shamal = {
 		2278 2281 1161 
 	}
 }
-maleni = {
+maleni = { 
 	location = 1219
-	end = yes
-	color = {
+	inland = yes
+	color = { 
 		147 137 123 
 	}
-	members = {
+	outgoing = { 
+		name = "sahra_centri"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	outgoing = { 
+		name = "wassaina"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
 		2285 1160 2283 2284 1157 1158 2287 2286 1159 5030
 		5032 2288 2932 5035 5036 774 5039 1219 2801 2802
 		1216 1217 2763 2762 1223 1214 2769 1224 2770 1221
@@ -734,20 +742,27 @@ maleni = {
 		1227 2771 2772 
 	}
 }
-sahra_centri = {
+sahra_centri = { 
 	location = 5003
 	inland = yes
-	color = {
+	color = { 
 		243 198 39 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "sahra_topu"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	outgoing = { 
+		name = "central_sahra"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
 		5029 5028 5031 5033 5034 5037 5017 5016 5015 5020
 		5019 5018 5045 5042 5043 5044 5024 5038 5026 5012
 		5014 5009 5011 5027 5025 5008 5007 5010 5023 5022
@@ -755,26 +770,27 @@ sahra_centri = {
 		5047 5046 
 	}
 }
-wassaina = {
+wassaina = { 
 	location = 5061
+	inland = yes
 	end = yes
-	color = {
+	color = { 
 		152 108 225 
 	}
-	members = {
+	members = { 
 		5040 5059 5041 5054 5055 5057 4998 1220 1229 2323
 		2322 4319 4320 1233 1234 1231 4989 4993 5068 5065
 		5061 5060 5064 5062 5066 5069 5067 4994 4996 5063
 		1228 5058 5056 
 	}
 }
-merina = {
+merina = { 
 	location = 1490
 	end = yes
-	color = {
+	color = { 
 		239 209 1 
 	}
-	members = {
+	members = { 
 		2574 2575 997 980 981 2573 1104 1105 2577 996
 		2576 2579 995 2580 4895 993 2584 2569 982 2578
 		986 2572 985 983 4891 984 2568 2570 2583 994
@@ -782,26 +798,26 @@ merina = {
 		2013 2582 2571 
 	}
 }
-baltic = {
+baltic = { 
 	location = 1926
-	color = {
+	color = { 
 		0 0 255 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "ostla"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "lathia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		22 5 1985 7 3 2 1930 1 4 8
 		10 18 4114 4151 1776 4124 32 33 34 274
 		1834 1842 36 37 38 1935 39 271 41 40
@@ -809,26 +825,26 @@ baltic = {
 		31 4152 19 4113 11 9 30 
 	}
 }
-gusirov = {
+gusirov = { 
 	location = 1752
-	color = {
+	color = { 
 		0 128 0 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "lathia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "olksiva"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		4241 4535 273 1960 4148 311 310 2749 1961 4261
 		314 4263 1957 306 1754 307 4252 296 297 4244
 		4115 4544 4545 276 4242 292 770 275 771 4246
@@ -836,93 +852,72 @@ gusirov = {
 		4147 4248 294 4249 1752 4243 1959 4117 4260 272
 	}
 }
-olksiva = {
+olksiva = { 
 	location = 302
 	inland = yes
-	color = {
+	color = { 
 		128 128 128 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "crimea"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		1941 4247 4539 1942 280 2407 4542 290 291 2409
 		288 1971 303 2419 1081 2423 304 2415 1778 302
 		300 4255 301 467 299 298 2408 4543 4116 1945
 		289 
 	}
 }
-central_sahra = {
-	location = 4962
-	inland = yes
-	color = {
-		0 255 0 
-	}
-	outgoing = {
-		name = "cartha"
-		path = {
-		}
-		control = {
-		}
-	}
-	outgoing = {
-		name = "sahra_topu"
-		path = {
-		}
-		control = {
-		}
-	}
-	members = {
-		4965 349 346 2460 4948 4946 4958 4957 4961 4960
-		4956 4955 4954 4953 2275 2475 2474 2448 4947 4944
-		4943 4942 4949 4959 4962 4963 4964 4952 4951 4966
-		4950 2463 2277 2274 2272 2271 1130 
-	}
-}
-syria = {
+syria = { 
 	location = 4296
-	color = {
+	color = { 
 		108 219 214 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "alexandria"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "bagdad"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "constinti"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		4297 1849 377 4298 2303 4310 2305 331 4302 2307
 		4304 416 2207 2206 4293 4296 2306 418 2308 407
 		405 2314 406 409 410 4291 2209 2211 2210 4294
 		415 2310 2309 411 4295 4292 
 	}
 }
-bagdad = {
+bagdad = { 
 	location = 1335
-	end = yes
-	color = {
+	color = { 
 		52 30 89 
 	}
-	members = {
+	outgoing = { 
+		name = "alexandria"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
 		4328 401 2342 4287 4286 2341 398 4285 403 399
 		400 431 4327 2233 434 575 2232 2220 4345 4330
 		2218 413 4342 2217 4331 4329 2223 2219 4332 430
@@ -931,46 +926,26 @@ bagdad = {
 		396 
 	}
 }
-sahra_topu = {
-	location = 5088
-	inland = yes
-	color = {
-		193 27 2 
-	}
-	outgoing = {
-		name = "cartha"
-		path = {
-		}
-		control = {
-		}
-	}
-	members = {
-		5049 5050 5051 5076 5075 5074 5087 5085 4985 4984
-		5081 5078 5053 5052 5077 5080 5082 5079 5083 5084
-		5072 5071 5070 4992 4323 2319 2317 2318 4987 4990
-		4991 4997 5073 5088 5086 4995 4986 5089 4988 
-	}
-}
-ostla = {
+ostla = { 
 	location = 12
-	color = {
+	color = { 
 		168 9 9 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "dogera_straight"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "germeni"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		100 4382 4381 2973 55 1931 1874 4771 54 44
 		1857 53 2996 46 47 4745 2994 1858 4746 48
 		4749 4786 45 1775 4141 13 15 4149 1984 4142
@@ -978,27 +953,27 @@ ostla = {
 		26 4145 4144 17 4143 4164 
 	}
 }
-germeni = {
+germeni = { 
 	location = 2975
 	inland = yes
-	color = {
+	color = { 
 		128 255 255 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "baveris"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "phoropha"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		2975 1742 1878 4768 1760 1761 77 4718 71 4715
 		67 1757 2967 267 266 4724 4238 2966 2969 49
 		4747 2993 51 50 1763 4778 2970 1771 60 4744
@@ -1008,27 +983,27 @@ germeni = {
 		2965 4717 79 4774 4716 66 
 	}
 }
-lathia = {
+lathia = { 
 	location = 2963
 	inland = yes
-	color = {
+	color = { 
 		89 35 133 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "rolobus"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "crimea"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		2963 2997 1859 2958 767 1936 4534 270 4536 4537
 		254 264 4237 263 2960 2424 4541 2961 2962 278
 		279 1940 2959 260 277 1937 4538 257 259 269
@@ -1036,27 +1011,27 @@ lathia = {
 		255 4533 258 4723 
 	}
 }
-rolobus = {
+rolobus = { 
 	location = 2968
 	inland = yes
-	color = {
+	color = { 
 		128 0 64 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "baveris"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "adria"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		2968 4725 265 4726 4236 162 1952 158 4128 4532
 		156 1954 4173 140 1828 1769 129 131 4756 1767
 		4759 128 4751 152 1863 132 4761 133 1770 4762
@@ -1065,52 +1040,59 @@ rolobus = {
 		4176 
 	}
 }
-crimea = {
+crimea = { 
 	location = 1322
-	color = {
+	color = { 
 		243 215 10 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "constinti"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "adria"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		159 4706 2998 261 4529 268 4530 2405 1756 282
 		2406 1974 284 2410 285 2447 2195 1856 462 422
 		2196 4303 2204 4301 2197 2416 463 287 2414 286
 		2413 281 1943 1944 283 4540 2412 2411 
 	}
 }
-alexandria = {
+alexandria = { 
 	location = 363
-	color = {
+	color = { 
 		208 203 108 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "cartha"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "constinti"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	outgoing = { 
+		name = "sahra_topu"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
 		357 2326 2325 358 362 363 321 2313 378 1855
 		1854 364 4316 2315 365 382 4270 4272 393 2337
 		4273 4277 2332 4278 2331 385 2330 384 2329 4269
@@ -1118,71 +1100,71 @@ alexandria = {
 		361 2320 2321 2324 1232 4322 360 4318 4321 359
 	}
 }
-phoropha = {
+phoropha = { 
 	location = 1877
 	inland = yes
-	color = {
+	color = { 
 		245 104 63 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "valencia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "baveris"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		198 4391 199 4777 203 192 1877 190 179 191
 		4390 187 4392 185 184 4776 177 1879 4388 183
 		182 186 4766 94 181 1743 93 188 80 4767
 	}
 }
-dogera_straight = {
+dogera_straight = { 
 	location = 1271
-	color = {
+	color = { 
 		255 255 0 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "francia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		172 171 170 169 4384 4385 168 167 89 87
 		88 4769 90 1865 91 92 1744 2974 1866 95
 		98 99 97 4383 96 4770 233 4373 4374 234
 		4371 235 238 1860 4130 237 4376 243 4370 236
 	}
 }
-constinti = {
+constinti = { 
 	location = 151
-	color = {
+	color = { 
 		220 16 113 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "cartha"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "adria"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		145 4701 146 147 3003 1853 4702 148 4705 149
 		4779 151 2296 317 2297 4309 318 4700 164 2348
 		320 319 163 2298 2302 327 332 329 4315 330
@@ -1190,46 +1172,46 @@ constinti = {
 		325 4313 4314 326 4307 323 4311 322 4312 1764
 	}
 }
-francia = {
+francia = { 
 	location = 174
-	color = {
+	color = { 
 		0 128 192 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "sevilla"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "baveris"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		4695 4694 176 173 209 210 2989 4789 1746 4552
 		207 1745 206 4554 208 4555 4558 4553 215 231
 		232 196 4112 195 4697 180 4389 178 4386 4111
 		174 4387 194 175 
 	}
 }
-baveris = {
+baveris = { 
 	location = 104
 	inland = yes
-	color = {
+	color = { 
 		0 128 255 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "italia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		202 204 205 4720 1867 4764 193 4721 165 1869
 		1870 4710 4712 1868 65 4707 76 1768 4758 110
 		108 109 1862 4728 2981 1875 4727 103 2979 104
@@ -1238,38 +1220,168 @@ baveris = {
 		189 1880 4713 1872 68 72 4719 75 4714 
 	}
 }
-adria = {
+adria = { 
 	location = 111
-	color = {
+	color = { 
 		0 128 64 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "italia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		111 4738 130 4752 1826 4753 136 139 137 1831
 		138 4754 1773 4699 144 142 4698 4174 4175 4750
 		143 4780 3001 4703 2750 150 4704 4531 161 160
 		2746 1765 3000 1766 1827 
 	}
 }
-sevilla = {
+zion = { 
+	location = 2387
+	end = yes
+	color = { 
+		210 180 140 
+	}
+	members = { 
+		2386 4836 2383 609 4827 2379 612 4828 2380 4829
+		605 592 600 4830 603 4825 4826 604 2376 2377
+		2387 2390 593 594 599 2393 
+	}
+}
+tzudak = { 
+	location = 1361
+	end = yes
+	color = { 
+		92 64 51 
+	}
+	members = { 
+		623 622 2678 2677 4816 2686 597 598 640 4804
+		4803 4802 2706 4791 2688 630 624 4790 2687 2679
+		2705 4815 
+	}
+}
+puskes = { 
+	location = 1347
+	end = yes
+	color = { 
+		192 192 192 
+	}
+	members = { 
+		585 601 4399 589 4844 586 590 2404 2402 579
+		4401 4395 4397 602 2388 1815 4396 2401 4841 591
+		2403 4831 4832 4833 1817 4398 588 4406 2400 4393
+		580 2399 4394 4842 4834 2389 581 584 2398 4835
+	}
+}
+gelt = { 
+	location = 1348
+	end = yes
+	color = { 
+		255 215 0 
+	}
+	members = { 
+		2676 620 2675 618 4810 4809 2674 2673 574 2394
+		4813 4812 595 4814 2392 659 4808 617 2685 619
+		4811 2682 2681 4817 4818 2680 621 2683 2684 2391
+		596 
+	}
+}
+resia = { 
+	location = 1471
+	color = { 
+		225 142 51 
+	}
+	outgoing = { 
+		name = "central_sahra"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	outgoing = { 
+		name = "sevilla"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
+		345 2470 4569 4568 2464 2466 1127 1128 1129 2247
+		4967 4981 4980 4978 4977 1111 4976 4975 366 4565
+		4974 347 1110 348 4973 4968 4972 4971 4970 5090
+		4983 4982 4979 4969 
+	}
+}
+central_sahra = { 
+	location = 4962
+	inland = yes
+	color = { 
+		0 255 0 
+	}
+	outgoing = { 
+		name = "cartha"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	outgoing = { 
+		name = "sahra_topu"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
+		4965 349 346 2460 4948 4946 4958 4957 4961 4960
+		4956 4955 4954 4953 2275 2475 2474 2448 4947 4944
+		4943 4942 4949 4959 4962 4963 4964 4952 4951 4966
+		4950 2463 2277 2274 2272 2271 1130 
+	}
+}
+sahra_topu = { 
+	location = 5088
+	inland = yes
+	color = { 
+		193 27 2 
+	}
+	outgoing = { 
+		name = "cartha"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
+		5049 5050 5051 5076 5075 5074 5087 5085 4985 4984
+		5081 5078 5053 5052 5077 5080 5082 5079 5083 5084
+		5072 5071 5070 4992 4323 2319 2317 2318 4987 4990
+		4991 4997 5073 5088 5086 4995 4986 5089 4988 
+	}
+}
+sevilla = { 
 	location = 1335
-	color = {
+	color = { 
 		64 191 92 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "valencia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	outgoing = { 
+		name = "cartha"
+		path = { 
+		}
+		control = { 
+		}
+	}
+	members = { 
 		2461 2462 336 2465 343 2467 2469 4564 342 4563
 		334 1751 4561 335 4562 337 2468 368 367 217
 		4551 216 228 4556 1851 227 4787 229 4150 4788
@@ -1277,50 +1389,50 @@ sevilla = {
 		4546 223 230 
 	}
 }
-valencia = {
+valencia = { 
 	location = 4696
-	color = {
+	color = { 
 		128 0 255 
 	}
-	outgoing = {
+	outgoing = { 
 		name = "italia"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	outgoing = {
+	outgoing = { 
 		name = "cartha"
-		path = {
+		path = { 
 		}
-		control = {
+		control = { 
 		}
 	}
-	members = {
+	members = { 
 		4696 201 200 2753 197 212 222 221 1750 4547
 		2751 2755 4557 211 214 2990 4550 4549 220 2988
 		213 2987 4560 333 4559 
 	}
 }
-cartha = {
+cartha = { 
 	location = 341
 	end = yes
-	color = {
+	color = { 
 		142 135 174 
 	}
-	members = {
+	members = { 
 		341 2455 4566 340 1882 339 338 2459 2458 2454
 		2473 2453 353 2954 356 355 2451 2452 354 2449
 		4567 2450 2472 2457 350 2456 351 352 
 	}
 }
-italia = {
+italia = { 
 	location = 1304
 	end = yes
-	color = {
+	color = { 
 		255 128 64 
 	}
-	members = {
+	members = { 
 		4736 125 4737 2982 124 126 123 2984 1933 122
 		1934 2983 4734 2985 121 4733 4732 118 4731 120
 		119 2986 4735 127 1247 117 2976 2977 2978 116

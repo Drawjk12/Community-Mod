@@ -1,0 +1,2 @@
+trade_goods = grain
+is_city = no

@@ -1,0 +1,2 @@
+trade_goods = dyes
+is_city = no
