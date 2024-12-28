@@ -1,0 +1,22 @@
+country_decisions = {
+	water_crisis_info = {
+		color = { 10 100 255 }
+		major = yes
+		potential = {
+			has_country_flag = has_water_crisis
+		}
+		allow = {
+			hidden_trigger = {
+				has_country_flag = enact_water_crisis_button
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = water_crisis_tooltip
+			}
+		}
+
+		effect = {
+			
+		}
+	}
+}

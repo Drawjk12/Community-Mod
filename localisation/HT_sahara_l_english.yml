@@ -1,0 +1,3 @@
+﻿l_english:
+  water_crisis_tooltip: "current water shorage is: §B[Root.WaterCrisisLevel.GetValue]§"
+  water_crisis_info_title: "Ongoing Water crisis"

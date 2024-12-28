@@ -10,5 +10,6 @@ on_startup = {
 			which = WaterCrisisLevel
 			value = 0
 		}
+		set_country_flag = has_water_crisis
 	}
 }

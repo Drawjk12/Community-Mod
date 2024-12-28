@@ -1,0 +1,20 @@
+# the button you see in your goverment tab
+# custom_button = {
+# 	name = water_crisis_menu
+# 	tooltip = water_crisis_menu_tt
+# 	potential = { 
+# 		has_country_flag = has_water_crisis
+# 	}
+# 	trigger = { 
+# 		hidden_trigger = {
+# 			NOT = { has_country_flag = water_crisis_menu_opened }
+# 		}
+# 	}
+# 	effect = {
+# 	# 	custom_tooltip = water_crisis_menu_trigger_tt
+
+# 		hidden_effect = {
+# 			set_country_flag = water_cisis_menu_opened
+# 		}
+# 	}
+# }
