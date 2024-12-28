@@ -1,16 +1,20 @@
 Sahel_Well = {
     # Province the project starts in
-    start = 5061#
+    start = 5061
     # Date built in real life (If you start the game at a date later than this, then the project will show up)
-    date = 1000.01.0#
+    date = 1000.01.0
     # How much it costs to build
-    build_cost = 0#
+    build_cost = 0
     # If the project can be moved
     can_be_moved = no
     # Starting tier of the project
     starting_tier = 1
     # Project type
     type = monument
+
+    time = {
+        months = 120
+    }
     # Conditions to build the project
     build_trigger = {
         #custom tooltip perhaps

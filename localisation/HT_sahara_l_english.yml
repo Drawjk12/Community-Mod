@@ -1,3 +1,20 @@
 ﻿l_english:
   water_crisis_tooltip: "current water shorage is: §B[Root.WaterCrisisLevel.GetValue]§"
   water_crisis_info_title: "Ongoing Water crisis"
+
+  Sahel_Well: "The Great Sahel Well"
+
+  water_crisis.1.t: "A water crisis!"
+  water_crisis.1.d.a: "Theres has been a slight decrease in water supplies, its causing a bit of unrest. (check descisions for info)" 
+  water_crisis.1.d.b: "Water is starting to run low, unrest has increased. we must do something about it! (check descisions for info)"
+  water_crisis.1.d.c: "The vitality of water has become a luxury. revolts are growing in masses and our country is crumbling. something must be done!! (check descisions for info)"
+  water_crisis.1.a: "Oh dear, that doesnt sound good"
+  water_crisis.1.b: "Impossible! we must do something"
+  water_crisis.1.c: "Goodness Gracious! Way the strongest survive!!!"
+
+  minor_water_crisis_modif: "Minor water crisis"
+  major_water_crisis_modif: "Major water crisis"
+  extreme_water_crisis_modif: "Extreme water crisis"
+
+  North_African_culture_Group: "North African"
+  sahra_west_culture: "West Sahrani"

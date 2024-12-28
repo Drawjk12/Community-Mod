@@ -1,0 +1,94 @@
+on_startup = {
+	every_country = {
+		limit ={
+			or = {
+				culture_group = North_African_culture_Group
+				culture_group = South_African_culture_Group
+			}
+		}
+		set_variable = {
+			which = WaterCrisisLevel
+			value = 0
+		}
+		set_country_flag = has_water_crisis
+	}
+}
+
+on_monthly_pulse = {
+	
+
+	# event trigger
+	every_country = {
+		limit = {
+			and = {
+				or = {
+					culture_group = North_African_culture_Group
+					culture_group = South_African_culture_Group
+				}
+				check_variable = {
+					which = WaterCrisisLevel
+					value = 25
+				}
+				NOT = {
+					OR = {
+						has_country_flag = had_recent_crisis_25
+						has_country_flag = had_recent_crisis_50
+						has_country_flag = had_recent_crisis_75
+					}
+				}
+			}
+		}
+		country_event = {
+			id = water_crisis.1
+			days = 0
+		}
+	}
+
+	# Modifiers alteration
+	every_country = {
+		# if you had the minor crisis and are above 50
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = had_recent_crisis_25
+					check_variable = {
+						which = WaterCrisisLevel
+						value = 50
+					}
+				}
+			}
+			clr_country_flag = had_recent_crisis_25
+		}
+		# if you had the major crisis and ar above 75
+		if = {
+			limit = {
+				AND = {
+					has_country_flag = had_recent_crisis_50
+					check_variable = {
+						which = WaterCrisisLevel
+						value = 75
+					}
+				}
+			}
+			clr_country_flag = had_recent_crisis_50
+		}
+		# if youre below 25, clear all
+		if = {
+			limit = {
+				NOT = {
+					check_variable = {
+						which = WaterCrisisLevel
+						value = 25
+					}
+				}
+			}
+			clr_country_flag = had_recent_crisis_25
+			clr_country_flag = had_recent_crisis_50
+			clr_country_flag = had_recent_crisis_75
+
+			remove_country_modifier = minor_water_crisis_modif
+			remove_country_modifier = major_water_crisis_modif
+			remove_country_modifier = extreme_water_crisis_modif
+		}
+	}
+}

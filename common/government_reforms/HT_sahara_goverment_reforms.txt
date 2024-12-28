@@ -1,0 +1,17 @@
+sahara_default_monarchy = {
+	monarchy = yes
+	heir = yes
+	queen = yes
+	basic_reform = yes
+	valid_for_nation_designer = yes
+	boost_income = no
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+
+	modifiers = {
+		nobles_loyalty_modifier = 0.1
+		nobles_influence_modifier = 0.05
+		global_trade_goods_size_modifier = 0.1
+	}
+}

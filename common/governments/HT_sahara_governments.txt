@@ -1,0 +1,14 @@
+sahara_monarchy = {
+	reform_levels = {
+		sahara_monarchy_types = {
+			reforms = {
+				sahara_default_monarchy
+			}
+		}
+		
+	}
+
+	basic_reform = sahara_default_monarchy
+
+	color = {212 227 52}
+}
