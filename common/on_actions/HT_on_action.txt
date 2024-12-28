@@ -1,0 +1,14 @@
+on_startup = {
+	every_country = {
+		limit ={
+			or = {
+				culture_group = North_African_culture_Group
+				culture_group = South_African_culture_Group
+			}
+		}
+		set_variable = {
+			which = WaterCrisisLevel
+			value = 0
+		}
+	}
+}

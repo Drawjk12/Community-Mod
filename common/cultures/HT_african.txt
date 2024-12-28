@@ -11,3 +11,17 @@ North_African_culture_Group = {
         }
 	}
 }
+
+South_African_culture_Group = {
+	sahra_west_culture ={
+		male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+	}
+}

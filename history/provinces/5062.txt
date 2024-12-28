@@ -4,3 +4,7 @@ add_core = J01
 owner = J01
 controller = J01
 trade_goods = grain
+discovered_by = sub_saharan
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
