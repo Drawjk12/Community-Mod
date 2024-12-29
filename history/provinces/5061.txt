@@ -1,7 +1,6 @@
-is_city = no
+is_city = yes
 add_core = J01
 owner = J01
-culture = sahra_west_culture
 controller = J01
 trade_goods = paper
 latent_trade_goods = { 

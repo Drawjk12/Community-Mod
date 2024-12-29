@@ -1,5 +1,5 @@
 North_African_culture_Group = {
-	sahra_west_culture ={
+	saheli_culture ={
 		male_names = {
             #maryn male names
         }
@@ -10,7 +10,18 @@ North_African_culture_Group = {
 
         }
 	}
-    sahra_south_culture = {
+    manane_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    herbedi_culture = {
         male_names = {
             #maryn male names
         }

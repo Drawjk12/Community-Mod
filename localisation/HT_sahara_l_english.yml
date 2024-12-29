@@ -3,6 +3,23 @@
   water_crisis_info_title: "Ongoing Water crisis"
 
   Sahel_Well: "The Great Sahel Well"
+  J01_ideas: "Saheli Ideas and Ambitions"
+  J01_ideas_bonus: "Ambition"
+  J01_ideas_start: "Identity"
+  sahel_gifted_of_well_desc: "From the beginning of time this place was a spring of prosperity due to the presence of this well."
+  sahel_gifted_of_well: "Gifted of the Well"
+  sahel_rising_tentions_desc: "With the decrease in availble water in the area, nation from across the sahara have turned their eyes towards the well."
+  sahel_rising_tentions: "Sahli Rising Tentions"
+  sahel_advanced_waterworks_desc: "With the limitless supply of water we can develop our lands to work more efficiently."
+  sahel_advanced_waterworks: "Advanced Waterworks"
+  sahel_water_diplomacy: "Water-led Diplomacy"
+  sahel_water_diplomacy_desc: "Water isnt only good for physical barters, it can also be used to sway diplomatic instances in our favour,"
+  sahel_water_ministry: "Akarok- specialised water ministry"
+  sahel_water_ministry_desc: "While the Well supplies us with near infinite water, it needs to be regulated too. With the installation of a specialized ministry it would aleviate a lot of work."
+  sahel_military_reforms: "Critical Military Reforms"
+  sahel_military_reforms_desc: "Our outdated war tactics need a immediate upgrade. Lets ask foreign warmongers for some tips."
+  sahel_early_steam_turbines: "Early Steam Turbines"
+  sahel_early_steam_turbines_desc: "With the sahara turning ever so slightly more into a desert, it was bound that someone found a use for hot water."
 
   water_crisis.1.t: "A water crisis!"
   water_crisis.1.d.a: "Theres has been a slight decrease in water supplies, its causing a bit of unrest. (check descisions for info)" 
@@ -24,8 +41,9 @@
   rainfall_trigger_modifier: "Rainfall Trigger"
 
   North_African_culture_Group: "North African"
-  sahra_west_culture: "West Sahrani"
-  sahra_south_culture: "South Sahrani"
+  saheli_culture: "Saheli"
+  manane_culture: "Manane"
+  herbedi_culture: "Herbedi"
 
   South_African_culture_Group: "South African"
 

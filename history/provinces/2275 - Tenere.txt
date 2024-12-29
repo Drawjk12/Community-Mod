@@ -4,3 +4,6 @@ discovered_by = sub_saharan
 discovered_by = eastern
 discovered_by = muslim
 trade_goods = livestock
+add_core = J02
+owner = J02
+controller = J02
