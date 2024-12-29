@@ -1,5 +1,5 @@
-government = HT_monarchies
-add_government_reform = ht_id_feudal_theocracy
+government = sahara_monarchy
+add_government_reform = sahara_field_monarch
 government_rank = 1
 technology_group = western
 capital = 5061

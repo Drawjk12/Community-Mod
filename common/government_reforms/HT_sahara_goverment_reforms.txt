@@ -3,7 +3,7 @@ sahara_default_monarchy = {
 	heir = yes
 	queen = yes
 	basic_reform = yes
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	boost_income = no
 	custom_attributes = {
 		enables_aristocratic_idea_group = yes
@@ -12,6 +12,37 @@ sahara_default_monarchy = {
 	modifiers = {
 		nobles_loyalty_modifier = 0.1
 		nobles_influence_modifier = 0.05
+	}
+}
+
+sahara_field_monarch = {
+	icon = "provincial_government"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = -0.1
 		global_trade_goods_size_modifier = 0.1
+	}
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+
+	potential = {
+		OR = {
+			culture_group = North_African_culture_Group
+		}
+	}
+
+	conditional = {
+		allow = {
+			
+		}
+	}
+
+	custom_attributes = {
+		
+	}
+
+	ai = {
+		factor = 0.75
 	}
 }

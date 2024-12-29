@@ -15,6 +15,17 @@
   minor_water_crisis_modif: "Minor water crisis"
   major_water_crisis_modif: "Major water crisis"
   extreme_water_crisis_modif: "Extreme water crisis"
+  heavy_drought_modif: "Heavy Drought"
+  minor_drought_modif: "Minor Drought"
+  acidous_rain: "Acid Rains"
+  normal_rainfall: "Normal Rainfall"
+  good_rainfall: "Good Rainfall"
+  heavy_rainfall: "Heavy Rainfall"
 
   North_African_culture_Group: "North African"
   sahra_west_culture: "West Sahrani"
+  sahra_south_culture: "South Sahrani"
+
+  South_African_culture_Group: "South African"
+
+  sahara_monarchy: "Saharan Monarchy"

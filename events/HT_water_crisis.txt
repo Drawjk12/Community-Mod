@@ -60,6 +60,12 @@ country_event = {
 		name = water_crisis.1.a
 		trigger = {
 			ROOT = {
+				has_country_flag = has_water_crisis
+			}
+		}
+
+		if = {
+			limit = {
 				check_variable = {
 					which = WaterCrisisLevel
 					value = 25
@@ -71,94 +77,78 @@ country_event = {
 					}
 				}
 			}
-		}
-
-		add_country_modifier = {
-			name = minor_water_crisis_modif
-			duration = -1
-		}
-
-		hidden_effect = {
-			if = {
-				limit = {
-					has_country_modifier = major_water_crisis_modif
-					has_country_modifier = extreme_water_crisis_modif
-				}
-				remove_country_modifier = major_water_crisis_modif
-				remove_country_modifier = extreme_water_crisis_modif
+			add_country_modifier = {
+				name = minor_water_crisis_modif
+				duration = -1
 			}
-			set_country_flag = had_recent_crisis_25
+			hidden_effect = {
+				if = {
+					limit = {
+						has_country_modifier = major_water_crisis_modif
+						has_country_modifier = extreme_water_crisis_modif
+					}
+					remove_country_modifier = major_water_crisis_modif
+					remove_country_modifier = extreme_water_crisis_modif
+				}
+				set_country_flag = had_recent_crisis_25
+			}
 		}
-	}
 
-	option = {
-		name = water_crisis.1.b
-		trigger = {
-			ROOT = {
+		if = {
+			limit = {
 				check_variable = {
 					which = WaterCrisisLevel
-					value = 25
+					value = 50
 				}
 				NOT = {
 					check_variable = {
 						which = WaterCrisisLevel
-						value = 49
+						value = 74
 					}
 				}
 			}
-		}
-
-		add_country_modifier = {
-			name = major_water_crisis_modif
-			duration = -1
-		}
-
-		hidden_effect = {
-			if = {
-				limit = {
-					has_country_modifier = minor_water_crisis_modif
-					has_country_modifier = extreme_water_crisis_modif
-				}
-				remove_country_modifier = minor_water_crisis_modif
-				remove_country_modifier = extreme_water_crisis_modif
+			add_country_modifier = {
+				name = major_water_crisis_modif
+				duration = -1
 			}
-			set_country_flag = had_recent_crisis_50
+	
+			hidden_effect = {
+				if = {
+					limit = {
+						has_country_modifier = minor_water_crisis_modif
+						has_country_modifier = extreme_water_crisis_modif
+					}
+					remove_country_modifier = minor_water_crisis_modif
+					remove_country_modifier = extreme_water_crisis_modif
+				}
+				set_country_flag = had_recent_crisis_50
+			}
 		}
-	}
 
-	option = {
-		name = water_crisis.1.c
-		trigger = {
-			ROOT = {
+		if = {
+			limit = {
 				check_variable = {
 					which = WaterCrisisLevel
-					value = 25
+					value = 75
 				}
-				NOT = {
-					check_variable = {
-						which = WaterCrisisLevel
-						value = 49
+			}
+			add_country_modifier = {
+				name = extreme_water_crisis_modif
+				duration = -1
+			}
+	
+			hidden_effect = {
+				if = {
+					limit = {
+						has_country_modifier = major_water_crisis_modif
+						has_country_modifier = minor_water_crisis_modif
 					}
+					remove_country_modifier = major_water_crisis_modif
+					remove_country_modifier = minor_water_crisis_modif
+	
 				}
+				set_country_flag = had_recent_crisis_75
 			}
-		}
-
-		add_country_modifier = {
-			name = extreme_water_crisis_modif
-			duration = -1
-		}
-
-		hidden_effect = {
-			if = {
-				limit = {
-					has_country_modifier = major_water_crisis_modif
-					has_country_modifier = minor_water_crisis_modif
-				}
-				remove_country_modifier = major_water_crisis_modif
-				remove_country_modifier = minor_water_crisis_modif
-
-			}
-			set_country_flag = had_recent_crisis_75
-		}
+		}	
 	}
 }

@@ -1,9 +1,9 @@
 on_startup = {
+	# water crisis rights
 	every_country = {
 		limit ={
 			or = {
 				culture_group = North_African_culture_Group
-				culture_group = South_African_culture_Group
 			}
 		}
 		set_variable = {
@@ -11,11 +11,104 @@ on_startup = {
 			value = 0
 		}
 		set_country_flag = has_water_crisis
+		add_country_modifier = {
+			name = normal_rainfall
+			duration = -1
+		}
 	}
+	# intital crisis modif
+
 }
 
 on_monthly_pulse = {
-	
+	# Variable modifications
+	every_country = {
+		limit = {
+			culture_group = North_African_culture_Group
+		}
+		if = {
+			limit = {
+				has_country_modifier = heavy_drought_modif
+			}
+			change_variable = {
+				which = WaterCrisisLevel
+				value = 0.3
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = minor_drought_modif
+			}
+			change_variable = {
+				which = WaterCrisisLevel
+				value = 0.2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = acidous_rain
+			}
+			change_variable = {
+				which = WaterCrisisLevel
+				value = 0.1
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = normal_rainfall
+			}
+			subtract_variable = {
+				which = WaterCrisisLevel
+				value = 0.1
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = good_rainfall
+			}
+			subtract_variable = {
+				which = WaterCrisisLevel
+				value = 0.2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = heavy_rainfall
+			}
+			subtract_variable = {
+				which = WaterCrisisLevel
+				value = 0.3
+			}
+		}
+		# cannot over 100
+		if = {
+			limit = {
+				check_variable = {
+					which = WaterCrisisLevel
+					value = 100
+				}
+			}
+			set_variable = {
+				which = WaterCrisisLevel
+				value = 100
+			}
+		}
+		# cannot under 0
+		if = {
+			limit = {
+				NOT = {
+					check_variable = {
+						which = WaterCrisisLevel
+						value = 0
+					}
+				}
+			}
+			set_variable = {
+				which = WaterCrisisLevel
+				value = 0
+			}
+		}
+	}
 
 	# event trigger
 	every_country = {
@@ -23,7 +116,6 @@ on_monthly_pulse = {
 			and = {
 				or = {
 					culture_group = North_African_culture_Group
-					culture_group = South_African_culture_Group
 				}
 				check_variable = {
 					which = WaterCrisisLevel
@@ -89,6 +181,100 @@ on_monthly_pulse = {
 			remove_country_modifier = minor_water_crisis_modif
 			remove_country_modifier = major_water_crisis_modif
 			remove_country_modifier = extreme_water_crisis_modif
+		}
+	}
+}
+
+on_yearly_pulse = {
+	every_country ={
+		limit = {
+			culture_group = North_African_culture_Group
+		}
+		remove_country_modifier = heavy_drought_modif
+		remove_country_modifier = minor_drought_modif
+		remove_country_modifier = acidous_rain
+		remove_country_modifier = normal_rainfall
+		remove_country_modifier = good_rainfall
+		remove_country_modifier = heavy_rainfall
+	}
+
+	random_list = {
+		100 = {
+			# heavy drought
+			every_country = {
+				limit = {
+					culture_group = North_African_culture_Group
+				}
+				add_country_modifier = {
+					name = heavy_drought_modif
+					duration = -1
+				}
+			}
+		}
+
+		150 = {
+			# minor drought
+			every_country = {
+				limit = {
+					culture_group = North_African_culture_Group
+				}
+				add_country_modifier = {
+					name = minor_drought_modif
+					duration = -1
+				}
+			}
+		}
+
+		200 = {
+			# acidous
+			every_country = {
+				limit = {
+					culture_group = North_African_culture_Group
+				}
+				add_country_modifier = {
+					name = acidous_rain
+					duration = -1
+				}
+			}
+		}
+
+		300 = {
+			# normal rain
+			every_country = {
+				limit = {
+					culture_group = North_African_culture_Group
+				}
+				add_country_modifier = {
+					name = normal_rainfall
+					duration = -1
+				}
+			}
+		}
+
+		200 = {
+			# good rain
+			every_country = {
+				limit = {
+					culture_group = North_African_culture_Group
+				}
+				add_country_modifier = {
+					name = good_rainfall
+					duration = -1
+				}
+			}
+		}
+
+		50 = {
+			# heavy rain
+			every_country = {
+				limit = {
+					culture_group = North_African_culture_Group
+				}
+				add_country_modifier = {
+					name = heavy_drought_modif
+					duration = -1
+				}
+			}
 		}
 	}
 }
