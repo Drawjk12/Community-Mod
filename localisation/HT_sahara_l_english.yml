@@ -21,6 +21,7 @@
   normal_rainfall: "Normal Rainfall"
   good_rainfall: "Good Rainfall"
   heavy_rainfall: "Heavy Rainfall"
+  rainfall_trigger_modifier: "Rainfall Trigger"
 
   North_African_culture_Group: "North African"
   sahra_west_culture: "West Sahrani"

@@ -1,0 +1,109 @@
+# 4999
+rainfall_yearly_trigger = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		NOT = {
+			has_province_modifier = rainfall_trigger_modifier
+		}
+	}
+	on_activation = {
+		every_country = {
+			if = {
+				limit = {
+					culture_group = North_African_culture_Group
+				}
+				remove_country_modifier = heavy_drought_modif
+				remove_country_modifier = minor_drought_modif
+				remove_country_modifier = acidous_rain
+				remove_country_modifier = normal_rainfall
+				remove_country_modifier = good_rainfall
+				remove_country_modifier = heavy_rainfall
+			}
+		}
+		random_list = {
+			10 = {
+				# heavy drought
+				every_country = {
+					limit = {
+						has_country_flag = has_water_crisis
+					}
+					add_country_modifier = {
+						name = heavy_drought_modif
+						duration = -1
+					}
+				}
+			}
+	
+			15 = {
+				# minor drought
+				every_country = {
+					limit = {
+						has_country_flag = has_water_crisis
+					}
+					add_country_modifier = {
+						name = minor_drought_modif
+						duration = -1
+					}
+				}
+			}
+	
+			20 = {
+				# acidous
+				every_country = {
+					limit = {
+						has_country_flag = has_water_crisis
+					}
+					add_country_modifier = {
+						name = acidous_rain
+						duration = -1
+					}
+				}
+			}
+	
+			30 = {
+				# normal rain
+				every_country = {
+					limit = {
+						has_country_flag = has_water_crisis
+					}
+					add_country_modifier = {
+						name = normal_rainfall
+						duration = -1
+					}
+				}
+			}
+	
+			20 = {
+				# good rain
+				every_country = {
+					limit = {
+						has_country_flag = has_water_crisis
+					}
+					add_country_modifier = {
+						name = good_rainfall
+						duration = -1
+					}
+				}
+			}
+	
+			5 = {
+				# heavy rain
+				every_country = {
+					limit = {
+						has_country_flag = has_water_crisis
+					}
+					add_country_modifier = {
+						name = heavy_drought_modif
+						duration = -1
+					}
+				}
+			}
+		}
+		add_province_modifier = {
+			name = rainfall_trigger_modifier
+			duration = 364
+		}
+	}
+}

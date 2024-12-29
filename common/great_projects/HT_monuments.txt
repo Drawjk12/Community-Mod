@@ -4,7 +4,7 @@ Sahel_Well = {
     # Date built in real life (If you start the game at a date later than this, then the project will show up)
     date = 1000.01.0
     # How much it costs to build
-    build_cost = 0
+    build_cost = 1000
     # If the project can be moved
     can_be_moved = no
     # Starting tier of the project
@@ -20,7 +20,7 @@ Sahel_Well = {
         #custom tooltip perhaps
 		hidden_trigger = {
             owner = {
-                has_country_flag = has_water_crisis
+                culture_group =  North_African_culture_Group
             }
         }
     }
@@ -40,13 +40,13 @@ Sahel_Well = {
     # Conditions to use project
     can_use_modifiers_trigger = {
         owner = {
-            has_country_flag = has_water_crisis
+            culture_group =  North_African_culture_Group
         }
     }
     # Conditions to upgrade project
     can_upgrade_trigger = {
         owner = {
-            has_country_flag = has_water_crisis
+            culture_group =  North_African_culture_Group
         }
     }
     # Conditions for if the project will be destroyed when conquered
@@ -63,13 +63,13 @@ Sahel_Well = {
             factor = 0
         }
         # What modifiers are given to the province the project is located in
-        province_modifiers = {#          
+        province_modifiers = {       
         }
         # What modifiers are given to the area of the province the project is located in
-        area_modifier = {#         
+        area_modifier = {       
         }
         # What modifiers are given to the nation that owns the monument
-        country_modifiers = {#          
+        country_modifiers = {          
         }
         # What happens when the upgrade is complete
         on_upgraded = {#          
@@ -79,68 +79,86 @@ Sahel_Well = {
 	tier_1 = {
         # Time it takes to upgrade the project
         upgrade_time = {
-            months = 0
+            months = 120
         }
         # Cost to upgrade the project
         cost_to_upgrade = {
-            factor = 0
+            factor = 1000
         }
         # What modifiers are given to the province the project is located in
-        province_modifiers = {#          
+        province_modifiers = {
+            local_development_cost_modifier = -0.1          
         }
         # What modifiers are given to the area of the province the project is located in
-        area_modifier = {#         
+        area_modifier = {   
+            local_autonomy = -0.005
+            local_production_efficiency = 0.1
+            local_manpower_modifier = 0.2      
         }
         # What modifiers are given to the nation that owns the monument
-        country_modifiers = {#          
+        country_modifiers = {          
         }
         # What happens when the upgrade is complete
-        on_upgraded = {#          
+        on_upgraded = {          
         }
     }
     #
 	tier_2 = {
         # Time it takes to upgrade the project
         upgrade_time = {
-            months = 0
+            months = 240
         }
         # Cost to upgrade the project
         cost_to_upgrade = {
-            factor = 0
+            factor = 2500
         }
         # What modifiers are given to the province the project is located in
-        province_modifiers = {#          
+        province_modifiers = { 
+            local_development_cost_modifier = -0.2
+            local_manpower_modifier = 0.5         
         }
         # What modifiers are given to the area of the province the project is located in
-        area_modifier = {#         
+        area_modifier = {  
+            local_autonomy = -0.01
+            local_production_efficiency = 0.2
+            local_manpower_modifier = 0.3           
         }
         # What modifiers are given to the nation that owns the monument
-        country_modifiers = {#          
+        country_modifiers = {
+            accept_vassalization_reasons = 25  
+            stability_cost_modifier = -0.1      
         }
         # What happens when the upgrade is complete
-        on_upgraded = {#          
+        on_upgraded = {         
         }
     }
 	tier_3 = {
         # Time it takes to upgrade the project
         upgrade_time = {
-            months = 0
+            months = 400
         }
         # Cost to upgrade the project
         cost_to_upgrade = {
-            factor = 0
+            factor = 5000
         }
         # What modifiers are given to the province the project is located in
-        province_modifiers = {#          
+        province_modifiers = {
+            local_development_cost_modifier = -0.5
+            local_manpower_modifier = 0.75          
         }
         # What modifiers are given to the area of the province the project is located in
-        area_modifier = {#         
+        area_modifier = {
+            local_autonomy = -0.01
+            local_production_efficiency = 0.3
+            local_manpower_modifier = 0.5              
         }
         # What modifiers are given to the nation that owns the monument
-        country_modifiers = {#          
+        country_modifiers = { 
+            accept_vassalization_reasons = 50  
+            stability_cost_modifier = -0.25               
         }
         # What happens when the upgrade is complete
-        on_upgraded = {#          
+        on_upgraded = {         
         }
     }
 }
