@@ -4,3 +4,7 @@ government_rank = 1
 technology_group = western
 capital = 5012
 primary_culture = Herbedi_culture
+
+1444.1.1 = {
+	add_truce_with = J02
+}
