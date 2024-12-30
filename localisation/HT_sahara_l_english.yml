@@ -97,3 +97,12 @@
   South_African_culture_Group: "South African"
 
   sahara_monarchy: "Saharan Monarchy"
+
+  ability_arapleen_hierachy_mechanic: "Arapleen Hierarchy"
+  arapleen_prosperity_power: "Prosperity Power"
+  arapleen_prosperity_power_gain_modifier: "Prosperity Modifier"
+  monthly_arapleen_prosperity_power: "Monthly Prosperity"
+
+  Arapleen_max_gov_power_subject_buff: "Your subjects will receive great benefits"
+  Arapleen_50_gov_power_subject_buff: "Your subjects will recieve benefits"
+  Arapleen_25_gov_power_subject_buff: "Your subject will recieve minor benefits"

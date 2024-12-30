@@ -1,0 +1,36 @@
+arapleen_hierachy_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 10
+
+	available = {
+		has_dlc = Domination
+		culture = arapaleen_culture
+		has_country_flag = is_arapleen_ruler
+	}
+
+	powers = {
+		arapleen_prosperity_power = {
+			min = 0
+			max = 100
+			default = 0
+			reset_on_new_ruler = no
+			base_monthly_growth = 0
+			
+			scaled_modifier = {
+				trigger = {
+					ROOT = {
+						capital = {
+							is_prosperous = yes
+						}
+					}
+				}
+				modifier = { 
+					production_efficiency = 0.2
+					interest = 2
+					development_cost_in_primary_culture = -0.1
+					
+				}
+			}
+		}
+	}
+}

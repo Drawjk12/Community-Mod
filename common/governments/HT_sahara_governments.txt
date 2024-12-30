@@ -3,6 +3,7 @@ sahara_monarchy = {
 		sahara_monarchy_types = {
 			reforms = {
 				sahara_default_monarchy
+				sahara_arapleen_monarchy
 			}
 		}
 		

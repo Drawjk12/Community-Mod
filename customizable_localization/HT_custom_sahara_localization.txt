@@ -1,0 +1,51 @@
+defined_text = {
+	name = GetArapleenGovPowerModifier
+	random = no
+	text = { 
+		localisation_key = Arapleen_max_gov_power_subject_buff
+		trigger = {
+			has_government_mechanic = arapleen_hierachy_mechanic
+			has_government_power = {
+				mechanic_type = arapleen_hierachy_mechanic
+				power_type = arapleen_prosperity_power
+				value = 100
+			}
+		}
+	}
+	text = {
+		localisation_key = Arapleen_50_gov_power_subject_buff
+		trigger = {
+			has_government_mechanic = arapleen_hierachy_mechanic
+			has_government_power = {
+				mechanic_type = arapleen_hierachy_mechanic
+				power_type = arapleen_prosperity_power
+				value = 50
+			}
+			NOT = {
+				has_government_power = {
+					mechanic_type = arapleen_hierachy_mechanic
+					power_type = arapleen_prosperity_power
+					value = 100
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = Arapleen_25_gov_power_subject_buff
+		trigger = {
+			has_government_mechanic = arapleen_hierachy_mechanic
+			has_government_power = {
+				mechanic_type = arapleen_hierachy_mechanic
+				power_type = arapleen_prosperity_power
+				value = 25
+			}
+			NOT = {
+				has_government_power = {
+					mechanic_type = arapleen_hierachy_mechanic
+					power_type = arapleen_prosperity_power
+					value = 50
+				}
+			}
+		}
+	}
+}

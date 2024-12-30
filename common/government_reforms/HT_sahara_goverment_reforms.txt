@@ -8,19 +8,15 @@ sahara_default_monarchy = {
 	custom_attributes = {
 		enables_aristocratic_idea_group = yes
 	}
-
-	modifiers = {
-		nobles_loyalty_modifier = 0.1
-		nobles_influence_modifier = 0.05
-	}
 }
 
 sahara_field_monarch = {
 	icon = "provincial_government"
 	allow_normal_conversion = yes
 	modifiers = {
-		global_manpower_modifier = -0.1
-		global_trade_goods_size_modifier = 0.1
+		nobles_loyalty_modifier = 0.1
+		nobles_influence_modifier = 0.05
+		build_time = -0.1
 	}
 
 	valid_for_nation_designer = yes
@@ -44,5 +40,26 @@ sahara_field_monarch = {
 
 	ai = {
 		factor = 0.75
+	}
+}
+
+sahara_arapleen_monarchy = {
+	icon = "colonial_companies"
+	allow_normal_conversion = no
+
+	potential = {
+		culture = arapaleen_culture
+	}
+
+	modifiers = {
+		liberty_desire_from_subject_development = -0.05
+		burghers_influence_modifier = 0.1
+	}
+	boost_income = yes
+	allow_convert = yes
+	basic_reform = yes
+	
+	government_abilities = {
+		arapleen_hierachy_mechanic
 	}
 }

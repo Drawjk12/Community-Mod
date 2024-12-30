@@ -1343,7 +1343,7 @@ central_sahra = {
 	}
 }
 sahra_topu = { 
-	location = 5088
+	location = 5089
 	inland = yes
 	color = { 
 		193 27 2 
