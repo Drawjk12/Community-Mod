@@ -19,4 +19,61 @@ country_decisions = {
 			
 		}
 	}
+
+	purchase_arapleen_ruler = {
+		color = { 237 227 43 }
+		major = yes
+		potential = {
+			is_subject_of_type = arapaleen_subject_type
+		}
+		allow = {
+			hidden_trigger = {
+				NOT = {
+					has_country_flag = recent_arapleen_ruler_purchase
+					num_of_loans = 1
+				}
+			}
+			variable_arithmetic_trigger = {
+				custom_tooltip = has_more_money_than_arapleen_ruler
+
+				export_to_variable = {
+					variable_name = my_money
+					value = trigger_value:treasury
+					who = ROOT
+				}
+				overlord = {
+					if = {
+						limit = {
+							has_country_flag = is_arapleen_ruler
+						}
+						export_to_variable = {
+							variable_name = his_income
+							value = trigger_value:monthly_income
+							who = ROOT
+						}
+						set_variable = {
+							which = total_money_to_spend
+							which = his_income
+						}
+						multiply_variable = {
+							which = total_money_to_spend
+							value = 36
+						}
+					}
+					check_variable = {
+						which = my_money
+						which = total_money_to_spend
+					}
+				}
+			}
+		}
+		
+		effect = {
+
+
+			hidden_effect = {
+				set_country_flag = recent_arapleen_ruler_purchase
+			}
+		}
+	}
 }
