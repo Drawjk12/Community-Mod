@@ -1,0 +1,6 @@
+government = HT_monarchies
+add_government_reform = sahara_arapleen_monarchy
+government_rank = 1
+technology_group = western
+capital = 357
+primary_culture = arapaleen_culture

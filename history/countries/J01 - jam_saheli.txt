@@ -4,3 +4,4 @@ government_rank = 1
 technology_group = western
 capital = 5061
 add_government_reform = sahara_default_monarchy
+primary_culture = saheli_culture

@@ -106,3 +106,8 @@
   Arapleen_max_gov_power_subject_buff: "Your subjects will receive great benefits"
   Arapleen_50_gov_power_subject_buff: "Your subjects will recieve benefits"
   Arapleen_25_gov_power_subject_buff: "Your subject will recieve minor benefits"
+
+  arapaleen_subject_type_title: "Collaberative state"
+  arapaleen_subject_type_title_plural: "Collaberative states"
+  arapaleen_subject_type_long_desc: "A diplomatic scheme where states cooperate to all get rich, with one state ruling the collaberative finances. tho others can purchase that role"
+  arapaleen_subject_type_is_our: "Collab-state"

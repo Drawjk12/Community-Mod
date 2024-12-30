@@ -6,3 +6,4 @@ capital = 5016
 1444.1.1 = { 
 	add_truce_with = J03
 }
+primary_culture = manane_culture

@@ -5,3 +5,6 @@ discovered_by = muslim
 is_city = no
 trade_goods = fish
 culture = arapaleen_culture
+add_core = JA8
+owner = JA8
+controller = JA8

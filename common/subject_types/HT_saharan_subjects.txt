@@ -152,10 +152,6 @@ arapaleen_subject_type = {
 	can_transfer_in_peace = no
 	allows_taking_land_without_independence = yes
 	trust_on_start = 100
-	
-	can_fight = {
-		tag = FROM
-	}
 
 	#subject interactions
 	enforce_religion = no

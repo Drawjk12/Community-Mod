@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = grain
 culture = arapaleen_culture
+add_core = JA6
+owner = JA6
+controller = JA6

@@ -1,0 +1,49 @@
+dependency = {
+	subject_type = arapaleen_subject_type
+	first = JA1
+	second = JA2
+	start_date = 1444.1.1
+	end_date = 9999.1.1
+}
+dependency = {
+	subject_type = arapaleen_subject_type
+	first = JA1
+	second = JA3
+	start_date = 1444.1.1
+	end_date = 9999.1.1
+}
+dependency = {
+	subject_type = arapaleen_subject_type
+	first = JA1
+	second = JA4
+	start_date = 1444.1.1
+	end_date = 9999.1.1
+}
+dependency = {
+	subject_type = arapaleen_subject_type
+	first = JA1
+	second = JA5
+	start_date = 1444.1.1
+	end_date = 9999.1.1
+}
+dependency = {
+	subject_type = arapaleen_subject_type
+	first = JA1
+	second = JA6
+	start_date = 1444.1.1
+	end_date = 9999.1.1
+}
+dependency = {
+	subject_type = arapaleen_subject_type
+	first = JA1
+	second = JA7
+	start_date = 1444.1.1
+	end_date = 9999.1.1
+}
+dependency = {
+	subject_type = arapaleen_subject_type
+	first = JA1
+	second = JA8
+	start_date = 1444.1.1
+	end_date = 9999.1.1
+}

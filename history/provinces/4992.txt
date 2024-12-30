@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = salt
 culture = arapaleen_culture
+add_core = JA8
+owner = JA8
+controller = JA8
