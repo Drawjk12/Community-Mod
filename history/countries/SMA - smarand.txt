@@ -1,10 +1,8 @@
-government = HT_hre_monarchy
+government = HT_monarchies
 add_government_reform = hre_basic_monarchy
 add_government_reform = military_power_reform
 government_rank = 1
 technology_group = western
 capital = 122
-
-1199.2.2 = {
-       
+1199.2.2 = { 
 }

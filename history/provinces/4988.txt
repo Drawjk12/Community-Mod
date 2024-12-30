@@ -5,3 +5,6 @@ discovered_by = muslim
 is_city = no
 trade_goods = wool
 culture = arapaleen_culture
+add_core = JA3
+owner = JA3
+controller = JA3

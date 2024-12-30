@@ -4,3 +4,7 @@ discovered_by = eastern
 discovered_by = muslim
 is_city = no
 trade_goods = livestock
+add_core = JA5
+owner = JA5
+culture = arapaleen_culture
+controller = JA5

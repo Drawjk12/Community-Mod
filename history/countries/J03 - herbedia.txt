@@ -1,4 +1,4 @@
-government = sahara_monarchy
+government = HT_monarchies
 add_government_reform = sahara_default_monarchy
 government_rank = 1
 technology_group = western

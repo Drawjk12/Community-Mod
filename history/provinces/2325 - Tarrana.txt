@@ -5,3 +5,6 @@ discovered_by = muslim
 is_city = no
 trade_goods = naval_supplies
 culture = arapaleen_culture
+add_core = JA2
+owner = JA2
+controller = JA2

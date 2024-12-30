@@ -7,4 +7,4 @@ discovered_by = muslim
 owner = WEA
 hre = yes
 controller = WEA
-trade_goods = coffee
+trade_goods = naval_supplies

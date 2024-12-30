@@ -1,9 +1,11 @@
-HT_hre_monarchy = {
+HT_monarchies = {
     reform_levels = {
         hre_monarchy_types = {
             reforms = {
                 hre_basic_monarchy
                 hre_massue_monarchy
+                sahara_default_monarchy
+				sahara_arapleen_monarchy
             }
         }
         faction_in_power_reforms = {
@@ -14,23 +16,7 @@ HT_hre_monarchy = {
         }
 		
     }
-    basic_reform = hre_monarchy_type
+    basic_reform = sahara_default_monarchy
 
-    color = { 250 239 82 }
-}
-
-HT_monarchies = {
-    reform_levels = {
-        east_indies_monarchies = {
-			reforms = {
-				ht_ei_monarchy_merchants_reform
-				ht_id_feudal_theocracy
-			}
-		}
-    }
-
-    ### make a basic reform?
-    basic_reform = hre_monarchy_type
-
-    color = { 255 124 240}
+    color = {212 227 52}
 }

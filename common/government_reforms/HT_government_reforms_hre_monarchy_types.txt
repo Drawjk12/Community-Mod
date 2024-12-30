@@ -15,6 +15,7 @@ hre_monarchy_type = {
 	conditional = {
 		allow = { 
 			has_dlc = "Res Publica"
+			
 		}
 		government_abilities = {
 			merchants_vs_militia_mechanic

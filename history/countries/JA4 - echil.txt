@@ -2,8 +2,5 @@ government = HT_monarchies
 add_government_reform = sahara_arapleen_monarchy
 government_rank = 1
 technology_group = western
-capital = 4995
+capital = 5086
 primary_culture = arapaleen_culture
-1444.1.1 = { 
-	set_country_flag = is_arapleen_ruler
-}

@@ -6,3 +6,6 @@ is_city = no
 trade_goods = cloth
 culture = arapaleen_culture
 center_of_trade = 1
+add_core = JA2
+owner = JA2
+controller = JA2

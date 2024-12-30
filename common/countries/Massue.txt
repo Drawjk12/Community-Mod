@@ -1,14 +1,14 @@
-color = {
-	15 66  0
+color = { 
+	15 66 0 
 }
-monarch_names = {
+monarch_names = { 
 }
-leader_names = {
+leader_names = { 
 }
-ship_names = {
+ship_names = { 
 }
-fleet_names = {
+fleet_names = { 
 }
-army_names = {
+army_names = { 
 }
 graphical_culture = westerngfx

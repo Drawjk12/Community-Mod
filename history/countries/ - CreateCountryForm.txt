@@ -1,4 +1,0 @@
-government = HT_hre_monarchy
-add_government_reform = hre_basic_monarchy
-government_rank = 1
-technology_group = western
