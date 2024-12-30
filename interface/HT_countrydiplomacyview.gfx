@@ -1,0 +1,8 @@
+spriteType = {
+	name = "GFX_diplomacy_lead_arapleen_subject"
+	texturefile = "gfx//interface//lead_arapleen_subject.dds"
+}
+spriteType = {
+	name = "GFX_diplomacy_am_arapleen_subject"
+	texturefile = "gfx//interface//am_arapleen_subject.dds"
+}

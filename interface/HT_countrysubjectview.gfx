@@ -1,0 +1,4 @@
+spriteType = {
+	name = "GFX_icon_arapleen_subject_icon"
+   texturefile = "gfx/interface/arapleen_subject_icon.dds"
+}

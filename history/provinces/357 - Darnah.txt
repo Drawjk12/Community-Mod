@@ -3,5 +3,5 @@ discovered_by = sub_saharan
 discovered_by = eastern
 discovered_by = muslim
 is_city = no
-trade_goods = fish
+trade_goods = cloth
 culture = arapaleen_culture
