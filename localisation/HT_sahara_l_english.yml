@@ -1,6 +1,7 @@
 ﻿l_english:
   water_crisis_tooltip: "current water shorage is: §B[Root.WaterCrisisLevel.GetValue]§"
   water_crisis_info_title: "Ongoing Water crisis"
+   water_crisis_info_desc: "Water is getting more scarce..."
 
   Sahel_Well: "The Great Sahel Well"
   J01_ideas: "Saheli Ideas and Ambitions"
@@ -98,14 +99,23 @@
 
   sahara_monarchy: "Saharan Monarchy"
 
+  GetArapleenRulerPurchase: "20 year have passed since purchase"
+  purchase_arapleen_ruler_title: "Purchase Ruler Title"
+  purchase_arapleen_ruler_desc: "Youre the most wealthy now! and with that money you can buy your way as ruler of this collaberative effort"
+
   ability_arapleen_hierachy_mechanic: "Arapleen Hierarchy"
   arapleen_prosperity_power: "Prosperity Power"
   arapleen_prosperity_power_gain_modifier: "Prosperity Modifier"
   monthly_arapleen_prosperity_power: "Monthly Prosperity"
+  sahara_arapleen_monarchy: "Arapleen Monarchy"
+  sahara_arapleen_monarchy_desc: "A monarchy that seeks heavy but friendly compitition among its collaborators"
 
   Arapleen_max_gov_power_subject_buff: "Your subjects will receive great benefits"
   Arapleen_50_gov_power_subject_buff: "Your subjects will recieve benefits"
   Arapleen_25_gov_power_subject_buff: "Your subject will recieve minor benefits"
+  string_has_purchased: "20 year have passed"
+  string_has_not_purchased: "20 years have not passed"
+
 
   arapaleen_subject_type_title: "Collaberative state"
   arapaleen_subject_type_title_plural: "Collaberative states"

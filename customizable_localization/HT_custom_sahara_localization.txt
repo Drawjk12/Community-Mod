@@ -49,3 +49,27 @@ defined_text = {
 		}
 	}
 }
+
+defined_text = {
+	name = GetArapleenRulerPurchase
+	text = { 
+		localisation_key = string_has_purchased
+		trigger = {
+			had_country_flag = {
+				flag = recent_arapleen_ruler_purchase
+				days = 7300
+			}
+		}
+	}
+	text = {
+		localisation_key = string_has_not_purchased
+		trigger = {
+			NOT = {
+				had_country_flag = {
+					flag = recent_arapleen_ruler_purchase
+					days = 7300
+				}
+			}
+		}
+	}
+}

@@ -89,11 +89,11 @@ basic_arapleen_ideas = {
         light_ship_number_of_cannons_modifier = 0.15
     }
     basic_arapleen_01 = {
-        global_manpower_modifier = 0.2
+        global_manpower_modifier = 0.15
     }
     basic_arapleen_02 = {
         culture_conversion_cost = -0.1
-        culture_conversion_time = -0.2
+        culture_conversion_time = -0.1
     }
     basic_arapleen_03 = {
         production_efficiency = 0.1
@@ -103,10 +103,10 @@ basic_arapleen_ideas = {
         naval_forcelimit_modifier = 0.1
     }
     basic_arapleen_05 = {
-        prestige = 2
+        prestige = 1
     }
     basic_arapleen_06 = {
-        monthly_reform_progress_modifier = 0.15
+        monthly_reform_progress_modifier = 0.1
     }
     basic_arapleen_07 = {
         global_unrest = -2

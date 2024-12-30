@@ -1,0 +1,37 @@
+cb_independence_war = {
+	exclusive = yes
+	independence = yes
+
+	prerequisites_self = {
+		is_subject_other_than_tributary_trigger = yes
+		NOT = { has_country_flag = burgundy_during_imperial_incident }
+	}
+
+	prerequisites = {
+		is_subject_of = FROM
+		NOT = { 
+            is_colonial_nation_of = FROM 
+            overlord = {
+				has_reform = sahara_arapleen_monarchy
+			}
+			is_subject_of_type = arapaleen_subject_type
+        }
+		OR = {
+			AND = {
+				NOT = { has_reform = daimyo }
+				NOT = {
+					AND = {
+						tag = SOO
+						has_government_attribute = is_pirate_republic_reform
+					}
+				}
+				NOT = {
+					has_country_flag = ikko_ikki_peasants_flag
+				}
+			}
+			NOT = { from = { has_reform = shogunate } }
+		}
+	}
+
+	war_goal = defend_capital_independence
+}

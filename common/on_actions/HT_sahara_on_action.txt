@@ -1,0 +1,8 @@
+on_startup = {
+	every_country = {
+		limit = {
+			has_reform = sahara_arapleen_monarchy
+		}
+		set_country_flag = recent_arapleen_ruler_purchase
+	}
+}

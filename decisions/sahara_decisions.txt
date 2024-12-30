@@ -28,52 +28,67 @@ country_decisions = {
 		}
 		allow = {
 			hidden_trigger = {
+				
+				had_country_flag = {
+					flag = recent_arapleen_ruler_purchase
+					days = 7300
+				}
+			}
+			if = {
+				limit = { ai = no }
 				NOT = {
-					has_country_flag = recent_arapleen_ruler_purchase
 					num_of_loans = 1
 				}
 			}
+			
 			variable_arithmetic_trigger = {
 				custom_tooltip = has_more_money_than_arapleen_ruler
 
-				export_to_variable = {
-					variable_name = my_money
-					value = trigger_value:treasury
-					who = ROOT
-				}
-				overlord = {
-					if = {
-						limit = {
-							has_country_flag = is_arapleen_ruler
-						}
+				any_country = {
+					has_country_flag = is_arapleen_ruler
+					variable_arithmetic_trigger = {
 						export_to_variable = {
-							variable_name = his_income
-							value = trigger_value:monthly_income
+							which = my_money
+							value = treasury
 							who = ROOT
 						}
-						set_variable = {
-							which = total_money_to_spend
-							which = his_income
+						export_to_variable = {
+							which = his_money
+							value = trigger_value:monthly_income
 						}
-						multiply_variable = {
-							which = total_money_to_spend
-							value = 36
-						}
-					}
-					check_variable = {
-						which = my_money
-						which = total_money_to_spend
+						multiply_variable = { which = his_money value = 36 }
+						check_variable = { which = my_money which = his_money }
 					}
 				}
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = GetArapleenRulerPurchase
 			}
 		}
 		
 		effect = {
 
-
-			hidden_effect = {
+			every_country = {
+				limit = {
+					has_reform = sahara_arapleen_monarchy
+				}
+				clr_country_flag = recent_arapleen_ruler_purchase
+				if = {
+					limit = {
+						NOT = {
+							tag = THIS
+						}
+					}
+					create_subject = {
+						subject_type = arapaleen_subject_type
+						subject = THIS
+					}
+				}
 				set_country_flag = recent_arapleen_ruler_purchase
 			}
+			
+			
 		}
 	}
 }

@@ -152,11 +152,40 @@ arapaleen_subject_type = {
 	can_transfer_in_peace = no
 	allows_taking_land_without_independence = yes
 	trust_on_start = 100
+	can_fight_independence_war = no
+	counts_for_borders = no
+	overlord_can_fabricate_for = no
 
 	#subject interactions
 	enforce_religion = no
 	enforce_culture = yes
-	divert_trade = yes
+	divert_trade = no
 	seize_territory = no
-	
+	block_settlement_growth = no
+	allow_settlement_growth = no
+
+	can_fight = {
+		independent_nations = yes
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_ally = {
+		independent_nations = yes
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_rival = {
+		independent_nations = yes
+		neighboring_primitives = yes
+		colonial_region_nations = yes
+	}
+	can_marry = {
+	}
+
+	# Modifiers:
+	modifier_subject = clear # Use this to clear after copy_from.
+	modifier_subject = { # Otherwise, this only adds modifiers, and doesn't remove previously added.
+		modifier = subject_nation
+	}
+	modifier_overlord = clear
 }

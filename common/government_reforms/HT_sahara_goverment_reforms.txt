@@ -5,13 +5,12 @@ sahara_default_monarchy = {
 	basic_reform = yes
 	valid_for_nation_designer = no
 	boost_income = no
-	custom_attributes = {
-		enables_aristocratic_idea_group = yes
-	}
+	
 }
 
 sahara_field_monarch = {
 	icon = "provincial_government"
+
 	allow_normal_conversion = yes
 	modifiers = {
 		nobles_loyalty_modifier = 0.1
@@ -35,7 +34,7 @@ sahara_field_monarch = {
 	}
 
 	custom_attributes = {
-		
+		enables_aristocratic_idea_group = yes
 	}
 
 	ai = {
@@ -56,8 +55,12 @@ sahara_arapleen_monarchy = {
 		burghers_influence_modifier = 0.1
 	}
 	boost_income = yes
-	allow_convert = yes
+	allow_convert = no
 	basic_reform = yes
+
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
 	
 	government_abilities = {
 		arapleen_hierachy_mechanic

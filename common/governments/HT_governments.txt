@@ -4,7 +4,7 @@ HT_monarchies = {
             reforms = {
                 hre_basic_monarchy
                 hre_massue_monarchy
-                sahara_default_monarchy
+                sahara_field_monarch
 				sahara_arapleen_monarchy
             }
         }
