@@ -7,3 +7,4 @@ trade_goods = livestock
 add_core = J02
 owner = J02
 controller = J02
+culture = rathna_culture

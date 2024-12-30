@@ -4,3 +4,4 @@ discovered_by = eastern
 discovered_by = muslim
 is_city = no
 trade_goods = fish
+culture = arapaleen_culture

@@ -285,5 +285,82 @@ North_African_culture_Group = {
 
         }
     }
+    rathna_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    iskandar_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    bashir_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    urvi_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    calpurnia_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    putri_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    girish_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
 }
 
