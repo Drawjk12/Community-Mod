@@ -1,8 +1,8 @@
 bookmark =
 {
-	name = "BOOKMARK_NAME"
-	desc = "BOOKMARK_NAME_DESC"
-	date = 1444.1.1
+	name = "Climatic Change of Tides"
+	desc = "Around this age is a turning point of the centuries. Marne Expanded in the sahara, the north <add something here lol>"
+	date = 1444.7.14
 
 
 }
