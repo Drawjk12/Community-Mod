@@ -1,0 +1,2 @@
+culture = shridevi_culture
+is_city = no

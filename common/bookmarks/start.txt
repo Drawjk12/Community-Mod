@@ -1,8 +1,12 @@
 bookmark =
 {
-	name = "Climatic Change of Tides"
-	desc = "Around this age is a turning point of the centuries. Marne Expanded in the sahara, the north <add something here lol>"
+	default = yes
+
+	name = "Tide_change_BM"
+	desc = "Tide_change_BM_desc"
 	date = 1444.7.14
 
-
+	center = 4999
+	country = J02
+	country = J01
 }

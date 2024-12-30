@@ -4,3 +4,4 @@ discovered_by = sub_saharan
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
+culture = dinesh_culture

@@ -1,5 +1,5 @@
 is_city = no
-culture = sahra_west_culture
+culture = saheli_culture
 add_core = J01
 owner = J01
 controller = J01

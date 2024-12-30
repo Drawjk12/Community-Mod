@@ -32,5 +32,258 @@ North_African_culture_Group = {
 
         }
     }
+    asperite_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    karteen_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    fasokoi_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    meldit_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    elisinian_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    arapaleen_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    sharad_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    prashant_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    dinesh_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    zahid_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    alya_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    furqan_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    arif_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    goutam_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    horatia_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    lavanya_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    venkat_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    dileep_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    shridevi_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    vasudha_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    om_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    ko_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    olp_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
 }
 
