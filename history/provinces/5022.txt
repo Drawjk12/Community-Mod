@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 culture = ko_culture
+add_core = J08
+owner = J08
+controller = J08

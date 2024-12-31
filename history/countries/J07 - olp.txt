@@ -1,0 +1,9 @@
+government = HT_monarchies
+add_government_reform = sahara_field_monarch
+government_rank = 1
+technology_group = western
+capital = 5084
+primary_culture = olp_culture
+
+historical_rival = J06
+historical_rival = J08

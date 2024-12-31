@@ -6,3 +6,7 @@ on_startup = {
 		set_country_flag = recent_arapleen_ruler_purchase
 	}
 }
+
+on_monthly_pulse = {
+	# need the prosperity working
+}

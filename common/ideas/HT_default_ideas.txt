@@ -112,3 +112,42 @@ basic_arapleen_ideas = {
         global_unrest = -2
     }
 }
+
+basic_saharan_ideas = {
+    free = yes
+    trigger = {
+        OR = {
+            culture_group = North_African_culture_Group
+        }
+    }
+    start = {
+        build_cost = -0.1
+        manpower_recovery_speed = 0.1
+    }
+    bonus = {
+        min_autonomy = -10
+    }
+    basic_sahara_01 = {
+        years_of_nationalism = -5
+    }
+    basic_sahara_02 = {
+        diplomatic_reputation = 1
+        diplomatic_upkeep = 1
+    }
+    basic_sahara_03 = {
+        envoy_travel_time = -0.15
+    }
+    basic_sahara_04 = {
+        cavalry_power = 0.1
+    }
+    basic_sahara_05 = {
+        rival_border_fort_maintenance = -0.2
+        defensiveness = 0.15
+    }
+    basic_sahara_06 = {
+        global_institution_spread = 0.15
+    }
+    basic_sahara_07 = {
+        num_accepted_cultures = 3
+    }
+}

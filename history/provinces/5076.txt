@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = livestock
 culture = om_culture
+add_core = J06
+owner = J06
+controller = J06

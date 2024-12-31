@@ -155,6 +155,7 @@ arapaleen_subject_type = {
 	can_fight_independence_war = no
 	counts_for_borders = no
 	overlord_can_fabricate_for = no
+	overlord_can_attack = no
 
 	#subject interactions
 	enforce_religion = no
@@ -180,6 +181,9 @@ arapaleen_subject_type = {
 		colonial_region_nations = yes
 	}
 	can_marry = {
+		independent_nations = yes
+		neighboring_primitives = yes
+		colonial_region_nations = yes
 	}
 
 	# Modifiers:
