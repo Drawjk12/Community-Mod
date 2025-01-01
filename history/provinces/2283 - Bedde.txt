@@ -1,2 +1,6 @@
 trade_goods = livestock
 is_city = no
+add_core = J23
+owner = J23
+culture = venkat_culture
+controller = J23

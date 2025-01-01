@@ -1,0 +1,6 @@
+government = HT_monarchies
+add_government_reform = sahara_field_monarch
+government_rank = 1
+technology_group = western
+capital = 5043
+primary_culture = zahid_culture

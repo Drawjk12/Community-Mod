@@ -5,3 +5,7 @@ discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 culture = venkat_culture
+add_core = J24
+owner = J24
+controller = J24
+add_core = J23

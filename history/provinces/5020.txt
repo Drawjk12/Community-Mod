@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 culture = furqan_culture
+add_core = J10
+owner = J10
+controller = J10

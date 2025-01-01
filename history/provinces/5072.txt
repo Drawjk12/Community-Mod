@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = livestock
 culture = alya_culture
+add_core = J18
+owner = J18
+controller = J18

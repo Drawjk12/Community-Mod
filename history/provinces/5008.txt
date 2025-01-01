@@ -5,3 +5,7 @@ discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 culture = elisinian_culture
+add_core = J12
+owner = J12
+controller = J12
+add_claim = J05

@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 culture = lavanya_culture
+add_core = J20
+owner = J20
+controller = J20

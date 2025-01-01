@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = grain
 culture = karteen_culture
+add_core = J11
+owner = J11
+controller = J11

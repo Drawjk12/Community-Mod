@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 culture = arif_culture
+add_core = J22
+owner = J22
+controller = J22

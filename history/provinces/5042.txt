@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 culture = sharad_culture
+add_core = J15
+owner = J15
+controller = J15

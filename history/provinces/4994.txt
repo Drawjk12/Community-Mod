@@ -1,3 +1,6 @@
 trade_goods = wool
 is_city = no
 culture = vasudha_culture
+add_core = J17
+owner = J17
+controller = J17

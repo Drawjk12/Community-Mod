@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 culture = fasokoi_culture
+add_core = J14
+owner = J14
+controller = J14

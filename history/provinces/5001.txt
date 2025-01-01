@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 culture = dinesh_culture
+add_core = J12
+owner = J12
+controller = J12

@@ -6,3 +6,6 @@ discovered_by = muslim
 trade_goods = glass
 culture = prashant_culture
 center_of_trade = 1
+add_core = J19
+owner = J19
+controller = J19

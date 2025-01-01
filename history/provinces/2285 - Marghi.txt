@@ -1,2 +1,6 @@
 trade_goods = livestock
 is_city = no
+add_core = J25
+owner = J25
+culture = bashir_culture
+controller = J25

@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = sub_saharan
 discovered_by = eastern
 culture = dileep_culture
+add_core = J26
+owner = J26
+controller = J26

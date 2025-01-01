@@ -5,3 +5,7 @@ discovered_by = muslim
 is_city = no
 trade_goods = naval_supplies
 culture = goutam_culture
+add_claim = J11
+add_core = J21
+owner = J21
+controller = J21

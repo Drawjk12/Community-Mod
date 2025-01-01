@@ -4,3 +4,7 @@ discovered_by = eastern
 discovered_by = muslim
 is_city = no
 trade_goods = wine
+add_core = J15
+owner = J15
+culture = sharad_culture
+controller = J15

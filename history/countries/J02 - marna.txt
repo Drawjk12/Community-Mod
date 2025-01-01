@@ -7,3 +7,4 @@ capital = 5016
 	add_truce_with = J03
 }
 primary_culture = manane_culture
+add_government_reform = sahara_field_monarch

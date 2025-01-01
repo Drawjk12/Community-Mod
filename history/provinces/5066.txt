@@ -5,3 +5,6 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 culture = vasudha_culture
+add_core = J17
+owner = J17
+controller = J17
