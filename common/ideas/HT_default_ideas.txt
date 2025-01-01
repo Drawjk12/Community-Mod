@@ -118,6 +118,7 @@ basic_saharan_ideas = {
     trigger = {
         OR = {
             culture_group = East_saharan_culture_Group
+            culture_group = West_saharan_culture_group
         }
     }
     start = {
