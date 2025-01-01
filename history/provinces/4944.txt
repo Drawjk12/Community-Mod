@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = fur
 culture = calpurnia_culture
+add_core = J32
+owner = J32
+controller = J32

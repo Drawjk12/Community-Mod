@@ -5,3 +5,7 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = fur
 culture = calpurnia_culture
+add_core = J29
+add_claim = HAS
+owner = J29
+controller = J29

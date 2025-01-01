@@ -1,2 +1,6 @@
 is_city = no
 trade_goods = cloth
+add_core = J35
+owner = J35
+culture = karmonca_culture
+controller = J35

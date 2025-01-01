@@ -1,4 +1,4 @@
-North_African_culture_Group = {
+East_saharan_culture_Group = {
 	saheli_culture ={
 		male_names = {
             #maryn male names
@@ -318,6 +318,34 @@ North_African_culture_Group = {
 
         }
     }
+    
+    
+    
+}
+
+West_saharan_culture_group = {
+    girish_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    putri_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
     urvi_culture = {
         male_names = {
             #maryn male names
@@ -340,7 +368,7 @@ North_African_culture_Group = {
 
         }
     }
-    putri_culture = {
+    salamon_culture = {
         male_names = {
             #maryn male names
         }
@@ -351,7 +379,40 @@ North_African_culture_Group = {
 
         }
     }
-    girish_culture = {
+    etecnia_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    remini_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    karmonca_culture = {
+        male_names = {
+            #maryn male names
+        }
+        female_names = {
+            #maryn female names
+        }
+        dynasty_names = {
+
+        }
+    }
+    silili_culture = {
         male_names = {
             #maryn male names
         }

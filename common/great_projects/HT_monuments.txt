@@ -20,7 +20,7 @@ Sahel_Well = {
         #custom tooltip perhaps
 		hidden_trigger = {
             owner = {
-                culture_group =  North_African_culture_Group
+                culture_group =  East_saharan_culture_Group
             }
         }
     }
@@ -40,13 +40,13 @@ Sahel_Well = {
     # Conditions to use project
     can_use_modifiers_trigger = {
         owner = {
-            culture_group =  North_African_culture_Group
+            culture_group =  East_saharan_culture_Group
         }
     }
     # Conditions to upgrade project
     can_upgrade_trigger = {
         owner = {
-            culture_group =  North_African_culture_Group
+            culture_group =  East_saharan_culture_Group
         }
     }
     # Conditions for if the project will be destroyed when conquered

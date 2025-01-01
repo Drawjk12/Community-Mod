@@ -12,7 +12,7 @@ rainfall_yearly_trigger = {
 		every_country = {
 			if = {
 				limit = {
-					culture_group = North_African_culture_Group
+					culture_group = East_saharan_culture_Group
 				}
 				remove_country_modifier = heavy_drought_modif
 				remove_country_modifier = minor_drought_modif

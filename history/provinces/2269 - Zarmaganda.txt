@@ -1,2 +1,6 @@
 trade_goods = cloth
 is_city = no
+culture = salamon_culture
+add_core = J37
+owner = J37
+controller = J37

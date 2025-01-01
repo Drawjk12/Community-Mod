@@ -117,7 +117,7 @@ basic_saharan_ideas = {
     free = yes
     trigger = {
         OR = {
-            culture_group = North_African_culture_Group
+            culture_group = East_saharan_culture_Group
         }
     }
     start = {

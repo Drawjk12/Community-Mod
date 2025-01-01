@@ -1,2 +1,6 @@
 is_city = no
 trade_goods = fur
+culture = remini_culture
+add_core = J36
+owner = J36
+controller = J36

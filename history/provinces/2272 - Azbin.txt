@@ -4,3 +4,7 @@ discovered_by = eastern
 discovered_by = muslim
 is_city = no
 trade_goods = wool
+culture = salamon_culture
+add_core = J37
+owner = J37
+controller = J37

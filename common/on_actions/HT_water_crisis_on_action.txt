@@ -3,7 +3,7 @@ on_startup = {
 	if = {
 		limit ={
 			or = {
-				culture_group = North_African_culture_Group
+				culture_group = East_saharan_culture_Group
 			}
 		}
 		set_variable = {
@@ -30,7 +30,7 @@ on_monthly_pulse = {
 	# Variable modifications
 	if = {
 		limit = {
-			culture_group = North_African_culture_Group
+			culture_group = East_saharan_culture_Group
 		}
 		if = {
 			limit = {
@@ -117,7 +117,7 @@ on_monthly_pulse = {
 		limit = {
 			and = {
 				or = {
-					culture_group = North_African_culture_Group
+					culture_group = East_saharan_culture_Group
 				}
 				check_variable = {
 					which = WaterCrisisLevel

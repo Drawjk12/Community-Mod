@@ -59,7 +59,7 @@
   heavy_rainfall: "Heavy Rainfall"
   rainfall_trigger_modifier: "Rainfall Trigger"
 
-  North_African_culture_Group: "North African"
+  East_saharan_culture_Group: "East Saharan"
   saheli_culture: "Saheli"
   manane_culture: "Manane"
   herbedi_culture: "Herbedi"
@@ -89,10 +89,17 @@
   rathna_culture: "Rathna"
   iskandar_culture: "Iskandar"
   bashir_culture: "Bashir"
+
+  West_saharan_culture_group: "West Saharan "
   urvi_culture: "Urvi"
   calpurnia_culture: "Calpurnia"
   putri_culture: "Putri"
   girish_culture: "Girish"
+  salamon_culture: "Salamon"
+  etecnia_culture: "Etecnia"
+  remini_culture: "Remini"
+  karmonca_culture: "Karmon-ca"
+  silili_culture: "Sili-li"
 
 
   South_African_culture_Group: "South African"

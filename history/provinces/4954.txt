@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = grain
 culture = urvi_culture
+add_core = J34
+owner = J34
+controller = J34

@@ -5,3 +5,6 @@ discovered_by = eastern
 discovered_by = muslim
 trade_goods = spices
 culture = putri_culture
+add_core = J30
+owner = J30
+controller = J30

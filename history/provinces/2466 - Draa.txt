@@ -1,2 +1,6 @@
 trade_goods = tropical_wood
 is_city = no
+culture = remini_culture
+add_core = J36
+owner = J36
+controller = J36
